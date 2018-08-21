@@ -1,0 +1,9 @@
+cn/cl/bos/domain/Standard.class
+cn/cl/bos/domain/TakeTime.class
+cn/cl/bos/domain/Vehicle.class
+cn/cl/bos/domain/SubArchive.class
+cn/cl/bos/domain/Archive.class
+cn/cl/bos/domain/SubArea.class
+cn/cl/bos/domain/Area.class
+cn/cl/bos/domain/FixedArea.class
+cn/cl/bos/domain/Courier.class
