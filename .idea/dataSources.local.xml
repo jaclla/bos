@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="@192.168.34.102" uuid="7136de1b-b5e7-4b89-a41d-c1a63fce9cbe">
-      <database-info product="Oracle" version="Oracle Database 10g Enterprise Edition Release 10.2.0.1.0 - Production&#10;With the Partitioning, OLAP and Data Mining options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0" family="ORACLE" exact-version="10.2.0.1">
+    <data-source name="@192.168.34.36" uuid="7136de1b-b5e7-4b89-a41d-c1a63fce9cbe">
+      <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0" family="ORACLE" exact-version="11.2.0.2">
         <extra-name-characters>$#</extra-name-characters>
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
@@ -10,6 +10,16 @@
       <secret-storage>master_key</secret-storage>
       <user-name>cl</user-name>
       <introspection-schemas>*:CHENLONG,CL</introspection-schemas>
+    </data-source>
+    <data-source name="@localhost" uuid="370bc74e-a6af-4ccb-af84-a51992af3141">
+      <database-info product="MySQL" version="5.6.41" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" family="MYSQL" exact-version="5.6.41">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:@,sshtest</introspection-schemas>
     </data-source>
   </component>
 </project>

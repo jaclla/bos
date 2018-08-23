@@ -15,7 +15,7 @@
 		http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
 
     <!-- 扫描 @Server @Controller @Repository -->
-    <context:component-scan base-package="cn.cl"/>
+    <context:component-scan base-package="cn.cl.bos"/>
 
     <!-- 加载properties文件 -->
     <context:property-placeholder location="classpath:config.properties"/>
@@ -45,9 +45,16 @@
         <property name="jpaDialect">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaDialect"/>
         </property>
+        <!--配置二级缓存-->
         <property name="jpaPropertyMap">
             <map>
-                <entry key="hibernate.query.substitutions" value="true 1,false 0"/>
+                <entry key="hibernate.query.substitutions" value="true 1, false 0"/>
+                <entry key="hibernate.default_batch_fetch_size" value="16"/>
+                <entry key="hibernate.max_fetch_depth" value="2"/>
+                <entry key="hibernate.generate_statistics" value="true"/>
+                <entry key="hibernate.bytecode.use_reflection_optimizer" value="true"/>
+                <entry key="hibernate.cache.use_second_level_cache" value="false"/>
+                <entry key="hibernate.cache.use_query_cache" value="false"/>
             </map>
         </property>
     </bean>
@@ -55,7 +62,8 @@
     <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
         <property name="entityManagerFactory" ref="entityManagerFactory"/>
     </bean>
-
     <!--注解管理事物-->
     <tx:annotation-driven transaction-manager="transactionManager"/>
+    <!--整合springDataJpa-->
+    <jpa:repositories base-package="cn.cl.bos.dao"/>
 </beans>
