@@ -27,10 +27,10 @@
                 border: false,
                 rownumbers: true,
                 striped: true,
-                pageList: [30, 50, 100],
+                pageList: [3,30, 50, 100],
                 pagination: true,
                 toolbar: toolbar,
-                url: "../../data/standard.json",
+                url: "/standard_pageQuery",
                 idField: 'id',
                 columns: columns
             });
@@ -46,7 +46,6 @@
         });
 
 
-
         //工具栏
         var toolbar = [{
             id: 'button-add',
@@ -60,7 +59,44 @@
             text: '修改',
             iconCls: 'icon-edit',
             handler: function () {
-                alert('修改');
+                //获取当前选中行的数据
+                var rows = $("#grid").datagrid('getSelections');
+                if (rows.length != 1) {
+                    //选中多行或者未选中
+                    $.messager.alert('警告', '选中多行或者未选中行', 'warning');
+                } else {
+                    //只选中一行
+                    var row = rows[0];
+                    //将数据回显到表单
+                    $("#standardForm").form('load', row);
+                    //打开表单
+                    $("#standardWindow").window('open');
+                }
+            }
+        }, {
+            id: 'button-delete',
+            text: '删除',
+            iconCls: 'icon-cancel',
+            handler: function () {
+                //获取当前选中行的数据
+                var rows = $("#grid").datagrid('getSelections');
+                if (rows.length != 1) {
+                    //选中多行或者未选中
+                    $.messager.alert('警告', '选中多行或者未选中行', 'warning');
+                } else {
+                    //只选中一行
+                    var row = rows[0];
+                    $.messager.confirm('确认', '确认删除吗？', function (r) {
+                        if (r) {
+                            var id = row.id;
+                            //确认
+                            //获得要删除的数据
+                            window.location.href="/standard_delete?id="+id;
+                        }
+                    });
+
+                }
+
             }
         }];
 

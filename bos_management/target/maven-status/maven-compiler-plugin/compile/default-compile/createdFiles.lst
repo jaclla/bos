@@ -1,11 +1,16 @@
+cn/cl/bos/dao/base/CourierRepository.class
 cn/cl/bos/service/base/StandardService.class
 cn/cl/bos/service/base/StandardSerbiceImpl.class
 cn/cl/bos/domain/base/Standard.class
 cn/cl/bos/domain/base/TakeTime.class
+cn/cl/bos/service/base/CourierServiceImpl.class
 cn/cl/bos/domain/base/Area.class
 cn/cl/bos/domain/base/Courier.class
 cn/cl/bos/domain/base/SubArchive.class
+cn/cl/bos/web/action/base/CourierAction$1.class
 cn/cl/bos/domain/base/Vehicle.class
+cn/cl/bos/web/action/base/CourierAction.class
+cn/cl/bos/service/base/CourierService.class
 cn/cl/bos/web/action/base/StandardAction.class
 cn/cl/bos/domain/base/SubArea.class
 cn/cl/bos/domain/base/Archive.class

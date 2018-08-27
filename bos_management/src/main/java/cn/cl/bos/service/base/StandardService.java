@@ -10,4 +10,8 @@ public interface StandardService {
     public void save(Standard standard);
 
     Page<Standard> findPageData(Pageable pageable);
+
+    void delete(int id);
+
+    List<Standard> findAll();
 }

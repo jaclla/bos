@@ -8,6 +8,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 
 @Service
 @Transactional
@@ -15,6 +17,16 @@ public class StandardSerbiceImpl implements StandardService {
     @Override
     public Page<Standard> findPageData(Pageable pageable) {
         return standardRepository.findAll(pageable);
+    }
+
+    @Override
+    public List<Standard> findAll() {
+        return standardRepository.findAll();
+    }
+
+    @Override
+    public void delete(int id) {
+        standardRepository.delete(id);
     }
 
     @Autowired
