@@ -74,13 +74,27 @@
                     array.push(rows[i].id);
                 }
                 var ids = array.join(",");
-                window.location.href = "courier_delBatch?ids=" + ids;
+                window.location.href = "/courier_delBatch?ids=" + ids;
             }
         }
 
         // 还原工具栏
         function doRestore() {
-            alert("将取派员还原...");
+            // alert("将取派员还原...");
+            var rows = $("#grid").datagrid('getSelections');
+            if (rows.length == 0) {
+                //没有选中
+                $.messager.alert("警告", "请选择或则多条需要回复的记录", "warning");
+            } else {
+                //选中多行或一行
+                //创建一个用户接收所有行id的数组
+                var array = new Array();
+                for (var i = 0; i < rows.length; i++) {
+                    array.push(rows[i].id);
+                }
+                var ids = array.join(",");
+                window.location.href = "/courier_restoreBatch?ids=" + ids;
+            }
         }
 
         // 搜索工具栏

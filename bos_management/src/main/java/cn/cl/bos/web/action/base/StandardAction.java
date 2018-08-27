@@ -53,11 +53,18 @@ public class StandardAction extends ActionSupport implements ModelDriven<Standar
         standardService.save(standard);
         return SUCCESS;
     }
+
+    private String ids;
+
+    public void setIds(String ids) {
+        this.ids = ids;
+    }
+
     //数据删除
     @Action(value = "standard_delete", results = @Result(name = SUCCESS,type = "redirect", location = "/pages/base/standard.html"))
     public String delete() {
-        int id = Integer.parseInt(ServletActionContext.getRequest().getParameter("id"));
-        standardService.delete(id);
+        String[] idArray = ids.split(",");
+        standardService.delete(idArray);
         return SUCCESS;
     }
 

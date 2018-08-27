@@ -1,11 +1,16 @@
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/service/base/StandardSerbiceImpl.java
+/Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/service/base/AreaService.java
+/Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/utils/PinYin4jUtils.java
+/Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/service/base/AreaServiceImpl.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/domain/base/Archive.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/dao/base/CourierRepository.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/web/action/base/StandardAction.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/domain/base/SubArea.java
+/Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/dao/base/AreaRepository.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/domain/base/Vehicle.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/web/action/base/CourierAction.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/domain/base/TakeTime.java
+/Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/web/action/base/AreaAction.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/service/base/StandardService.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/domain/base/Courier.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/service/base/CourierService.java

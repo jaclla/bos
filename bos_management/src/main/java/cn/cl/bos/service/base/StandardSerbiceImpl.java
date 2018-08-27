@@ -25,8 +25,10 @@ public class StandardSerbiceImpl implements StandardService {
     }
 
     @Override
-    public void delete(int id) {
-        standardRepository.delete(id);
+    public void delete(String[] id) {
+        for (String s : id) {
+            standardRepository.delete(Integer.parseInt(s));
+        }
     }
 
     @Autowired

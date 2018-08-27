@@ -1,5 +1,7 @@
 package cn.cl.bos.domain.base;
 
+import org.apache.struts2.json.annotations.JSON;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -91,14 +93,13 @@ public class Area {
 	public void setShortcode(String shortcode) {
 		this.shortcode = shortcode;
 	}
-
-	public Set<SubArea> getSubareas() {
+    @JSON(serialize = false)
+    public Set<SubArea> getSubareas() {
 		return subareas;
 	}
-
-	public void setSubareas(Set<SubArea> subareas) {
-		this.subareas = subareas;
-	}
+    public void setSubareas(Set<SubArea> subareas) {
+        this.subareas = subareas;
+    }
 
 	@Override
 	public String toString() {
