@@ -9,4 +9,8 @@ public interface CourierService  {
     void save(Courier courier);
 
     Page<Courier> findPageData(Specification<Courier> specification, Pageable pageable);
+
+    void delBath(String[] ids);
+
+    void restoreBatch(String[] idArray);
 }

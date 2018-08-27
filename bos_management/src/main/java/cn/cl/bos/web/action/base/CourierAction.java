@@ -107,4 +107,26 @@ public class CourierAction extends ActionSupport implements ModelDriven<Courier>
         ActionContext.getContext().getValueStack().push(result);
         return SUCCESS;
     }
+
+    private String ids;
+
+    public void setIds(String ids) {
+        this.ids = ids;
+    }
+
+    @Action(value = "courier_delBatch", results = @Result(name =SUCCESS,location ="pages/base/courier.html",type = "redirect"))
+    public String delBatch() {
+        //获取id数组然后按，分割
+        String[] idArray = ids.split(",");
+        courierService.delBath(idArray);
+        return SUCCESS;
+
+    }@Action(value = "courier_restoreBatch", results = @Result(name =SUCCESS,location ="pages/base/courier.html",type = "redirect"))
+    public String restoreBatch() {
+        //获取id数组然后按，分割
+        String[] idArray = ids.split(",");
+        courierService.restoreBatch(idArray);
+        return SUCCESS;
+
+    }
 }

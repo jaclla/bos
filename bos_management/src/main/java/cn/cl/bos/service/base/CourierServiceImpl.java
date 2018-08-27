@@ -17,6 +17,22 @@ public class CourierServiceImpl implements CourierService {
         return courierRepository.findAll(specification,pageable);
     }
 
+    @Override
+    public void delBath(String[] ids) {
+        for (String idStr : ids) {
+            Integer id = Integer.parseInt(idStr);
+            courierRepository.updateDelTag1(id);
+        }
+    }
+
+    @Override
+    public void restoreBatch(String[] idArray) {
+        for (String idStr : idArray) {
+            Integer id = Integer.parseInt(idStr);
+            courierRepository.updateDelTag0(id);
+        }
+    }
+
     @Autowired
     private CourierRepository courierRepository;
 

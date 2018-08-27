@@ -61,13 +61,42 @@
 
         // 作废工具栏
         function doDelete() {
-            alert("删除...");
+            // alert("删除...");
+            var rows = $("#grid").datagrid('getSelections');
+            if (rows.length == 0) {
+                //没有选中
+                $.messager.alert("警告", "请选择或则多条需要作废的记录", "warning");
+            } else {
+                //选中多行或一行
+                //创建一个用户接收所有行id的数组
+                var array = new Array();
+                for (var i = 0; i < rows.length; i++) {
+                    array.push(rows[i].id);
+                }
+                var ids = array.join(",");
+                window.location.href = "/courier_delBatch?ids=" + ids;
+            }
         }
 
         // 还原工具栏
         function doRestore() {
-            alert("将取派员还原...");
+            // alert("将取派员还原...");
+            var rows = $("#grid").datagrid('getSelections');
+            if (rows.length == 0) {
+                //没有选中
+                $.messager.alert("警告", "请选择或则多条需要回复的记录", "warning");
+            } else {
+                //选中多行或一行
+                //创建一个用户接收所有行id的数组
+                var array = new Array();
+                for (var i = 0; i < rows.length; i++) {
+                    array.push(rows[i].id);
+                }
+                var ids = array.join(",");
+                window.location.href = "/courier_restoreBatch?ids=" + ids;
+            }
         }
+
         // 搜索工具栏
         function doSearch() {
             $("#searchWindow").window('open');
@@ -87,9 +116,9 @@
             //查询按钮
             $("#searchBtn").click(function () {
                 //将json数据序列化
-                var params =$("#searchForm").serializeJson();
-            //    发送请求
-                $("#grid").datagrid('load',params);
+                var params = $("#searchForm").serializeJson();
+                //    发送请求
+                $("#grid").datagrid('load', params);
                 //关闭窗口
                 $("#searchWindow").window('close');
             });
@@ -179,10 +208,10 @@
             width: 80,
             align: 'center',
             formatter: function (data, row, index) {
-                if (data == "0") {
-                    return "正常使用"
-                } else {
+                if (data == "1") {
                     return "已作废";
+                } else {
+                    return "正常使用"
                 }
             }
         }, {
