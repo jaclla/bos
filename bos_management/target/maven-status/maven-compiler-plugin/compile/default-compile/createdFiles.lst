@@ -4,6 +4,8 @@ cn/cl/bos/utils/PinYin4jUtils.class
 cn/cl/bos/domain/base/Courier.class
 cn/cl/bos/domain/base/SubArchive.class
 cn/cl/bos/domain/base/Vehicle.class
+cn/cl/bos/web/action/base/FixedAreaAction$1.class
+cn/cl/bos/service/base/FixedAreaService.class
 cn/cl/bos/service/base/AreaServiceImpl.class
 cn/cl/bos/domain/base/SubArea.class
 cn/cl/bos/domain/base/Archive.class
@@ -14,9 +16,12 @@ cn/cl/bos/service/base/StandardSerbiceImpl.class
 cn/cl/bos/web/action/base/AreaAction$1.class
 cn/cl/bos/domain/base/TakeTime.class
 cn/cl/bos/web/action/base/AreaAction.class
+cn/cl/bos/dao/base/FixedAreaRepository.class
 cn/cl/bos/domain/base/Area.class
+cn/cl/bos/web/action/base/FixedAreaAction.class
 cn/cl/bos/web/action/base/CourierAction$1.class
 cn/cl/bos/dao/base/AreaRepository.class
+cn/cl/bos/service/base/FixedAreaServiceImpl.class
 cn/cl/bos/web/action/base/CourierAction.class
 cn/cl/bos/service/base/CourierService.class
 cn/cl/bos/web/action/base/StandardAction.class

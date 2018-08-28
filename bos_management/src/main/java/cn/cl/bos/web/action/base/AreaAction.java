@@ -4,9 +4,6 @@ import cn.cl.bos.domain.base.Area;
 import cn.cl.bos.service.base.AreaService;
 import cn.cl.bos.utils.PinYin4jUtils;
 import cn.cl.bos.web.action.base.common.BaseAction;
-import com.opensymphony.xwork2.ActionContext;
-import com.opensymphony.xwork2.ActionSupport;
-import com.opensymphony.xwork2.ModelDriven;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
@@ -29,9 +26,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @ParentPackage("json-default")
 @Namespace("/")
@@ -242,7 +237,7 @@ public class AreaAction extends BaseAction<Area> {
 
     //    保存修改
     @Action(value = "area_save", results = @Result(name = SUCCESS, type = "redirect", location = "pages/base/area.html"))
-    public String area_save() {
+    public String area_Save() {
         areaService.save(model);
         return SUCCESS;
     }
