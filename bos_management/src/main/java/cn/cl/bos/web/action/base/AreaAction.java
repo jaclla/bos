@@ -3,6 +3,7 @@ package cn.cl.bos.web.action.base;
 import cn.cl.bos.domain.base.Area;
 import cn.cl.bos.service.base.AreaService;
 import cn.cl.bos.utils.PinYin4jUtils;
+import cn.cl.bos.web.action.base.common.BaseAction;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
@@ -36,17 +37,17 @@ import java.util.Map;
 @Namespace("/")
 @Actions
 @Scope("prototype")
-public class AreaAction extends ActionSupport implements ModelDriven<Area> {
-    //模型驱动
-    private Area area = new Area();
+public class AreaAction extends BaseAction<Area> {
+//    //模型驱动
+//    private Area area = new Area();
 
     @Autowired
     private AreaService areaService;
 
-    @Override
-    public Area getModel() {
-        return area;
-    }
+//    @Override
+//    public Area getModel() {
+//        return area;
+//    }
 
     //接收上传文件
     private File file;
@@ -182,19 +183,19 @@ public class AreaAction extends ActionSupport implements ModelDriven<Area> {
         return NONE;
     }
 
-    //属性驱动
-    private int rows;
-
-    private int page;
-
-    public void setRows(int rows) {
-        this.rows = rows;
-    }
-
-    public void setPage(int page) {
-        this.page = page;
-    }
-
+    //    //属性驱动
+//    private int rows;
+//
+//    private int page;
+//
+//    public void setRows(int rows) {
+//        this.rows = rows;
+//    }
+//
+//    public void setPage(int page) {
+//        this.page = page;
+//    }
+//    分页查询
     @Action(value = "area_pageQuery", results = @Result(name = SUCCESS, type = "json"))
     public String pageQuery() {
         //获取分页数据
@@ -209,18 +210,18 @@ public class AreaAction extends ActionSupport implements ModelDriven<Area> {
                 //添加查询条件
 
 //                根据省份模糊查询
-                if (StringUtils.isNotBlank(area.getProvince())) {
-                    Predicate p1 = cb.like(root.get("province").as(String.class), "%" + area.getProvince() + "%");
+                if (StringUtils.isNotBlank(model.getProvince())) {
+                    Predicate p1 = cb.like(root.get("province").as(String.class), "%" + model.getProvince() + "%");
                     list.add(p1);
                 }
 //                根据城市模糊查询
-                if (StringUtils.isNotBlank(area.getCity())) {
-                    Predicate p2 = cb.like(root.get("city").as(String.class), "%" + area.getCity() + "%");
+                if (StringUtils.isNotBlank(model.getCity())) {
+                    Predicate p2 = cb.like(root.get("city").as(String.class), "%" + model.getCity() + "%");
                     list.add(p2);
                 }
 //                根据区域模糊查询
-                if (StringUtils.isNotBlank(area.getDistrict())) {
-                    Predicate p3 = cb.like(root.get("district").as(String.class), "%" + area.getDistrict() + "%");
+                if (StringUtils.isNotBlank(model.getDistrict())) {
+                    Predicate p3 = cb.like(root.get("district").as(String.class), "%" + model.getDistrict() + "%");
                     list.add(p3);
                 }
                 return cb.and(list.toArray(new Predicate[0]));
@@ -228,19 +229,21 @@ public class AreaAction extends ActionSupport implements ModelDriven<Area> {
         };
 
         //调用业务层
-        Page<Area> pageData = areaService.findPageData(specification,pageable);
+        Page<Area> pageData = areaService.findPageData(specification, pageable);
         //返回数据到客户端
-        Map<String, Object> result = new HashMap<>();
-        result.put("total", pageData.getTotalElements());
-        result.put("rows", pageData.getContent());
-        //将map转换成json 使用struts2-json-plugin插件
-        ActionContext.getContext().getValueStack().push(result);
+//        Map<String, Object> result = new HashMap<>();
+//        result.put("total", pageData.getTotalElements());
+//        result.put("rows", pageData.getContent());
+//        //将map转换成json 使用struts2-json-plugin插件
+//        ActionContext.getContext().getValueStack().push(result);
+        pushPageDataToValueStack(pageData);
         return SUCCESS;
     }
 
-    @Action(value = "area_save",results = @Result(name = SUCCESS,type = "redirect", location = "pages/base/area.html"))
-    public String area_save(){
-        areaService.save(area);
+    //    保存修改
+    @Action(value = "area_save", results = @Result(name = SUCCESS, type = "redirect", location = "pages/base/area.html"))
+    public String area_save() {
+        areaService.save(model);
         return SUCCESS;
     }
 
@@ -250,6 +253,7 @@ public class AreaAction extends ActionSupport implements ModelDriven<Area> {
         this.ids = ids;
     }
 
+    //文件导入
     @Action(value = "area_delBatch", results = @Result(name = SUCCESS, type = "redirect", location = "pages/base/area.html"))
     public String area_delBatch() {
         //获取id数组然后按，分割

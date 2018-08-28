@@ -2,6 +2,7 @@ package cn.cl.bos.web.action.base;
 
 import cn.cl.bos.domain.base.Courier;
 import cn.cl.bos.service.base.CourierService;
+import cn.cl.bos.web.action.base.common.BaseAction;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
@@ -26,33 +27,33 @@ import java.util.Map;
 @Namespace("/")
 @Controller
 @Scope("prototype")
-public class CourierAction extends ActionSupport implements ModelDriven<Courier> {
-    //模型驱动
-    private Courier courier = new Courier();
-    //属性模型
-    private int page;
-    private int rows;
-
-    public void setPage(int page) {
-        this.page = page;
-    }
-
-    public void setRows(int rows) {
-        this.rows = rows;
-    }
+public class CourierAction extends BaseAction<Courier> {
+//    //模型驱动
+//    private Courier courier = new Courier();
+//    //属性模型
+//    private int page;
+//    private int rows;
+//
+//    public void setPage(int page) {
+//        this.page = page;
+//    }
+//
+//    public void setRows(int rows) {
+//        this.rows = rows;
+//    }
 
     @Autowired
     private CourierService courierService;
 
-    @Override
-    public Courier getModel() {
-        return courier;
-    }
+//    @Override
+//    public Courier getModel() {
+//        return courier;
+//    }
 
     //数据添加
     @Action(value = "courier_save", results = @Result(name = SUCCESS, type = "redirect", location = "pages/base/courier.html"))
     public String save() {
-        courierService.save(courier);
+        courierService.save(model);
         return SUCCESS;
     }
 
@@ -68,30 +69,30 @@ public class CourierAction extends ActionSupport implements ModelDriven<Courier>
                 //单表查询
                 //快递员工号  精准查询
                 List<Predicate> list = new ArrayList<>();
-                if (StringUtils.isNotBlank(courier.getCourierNum())) {
+                if (StringUtils.isNotBlank(model.getCourierNum())) {
                     // courierNum =?
-                    Predicate p1 = cb.equal(root.get("courierNum").as(String.class), courier.getCourierNum());
+                    Predicate p1 = cb.equal(root.get("courierNum").as(String.class), model.getCourierNum());
                     list.add(p1);
                 }
                 //快递公司 模糊查询
-                if (StringUtils.isNotBlank(courier.getCompany())) {
+                if (StringUtils.isNotBlank(model.getCompany())) {
                     // company like %?%
-                    Predicate p2 = cb.like(root.get("company").as(String.class), "%" + courier.getCompany() + "%");
+                    Predicate p2 = cb.like(root.get("company").as(String.class), "%" + model.getCompany() + "%");
                     list.add(p2);
                 }
                 //快递员类型查询 精准查询
-                if (StringUtils.isNotBlank(courier.getType())) {
+                if (StringUtils.isNotBlank(model.getType())) {
                     //type = ?
-                    Predicate p3 = cb.equal(root.get("type").as(String.class), courier.getType());
+                    Predicate p3 = cb.equal(root.get("type").as(String.class), model.getType());
                     list.add(p3);
                 }
 //                多表查询
                 //使用自己类关键目标类
 //                查询快递员的收派标准 模糊查询
                 Join<Object, Object> standard = root.join("standard", JoinType.INNER);
-                if (courier.getStandard() != null && StringUtils.isNotBlank(courier.getStandard().getName())) {
+                if (model.getStandard() != null && StringUtils.isNotBlank(model.getStandard().getName())) {
                     //standardNum like $?$
-                    Predicate p4 = cb.like(standard.get("name").as(String.class), "%" + courier.getStandard().getName() + "%");
+                    Predicate p4 = cb.like(standard.get("name").as(String.class), "%" + model.getStandard().getName() + "%");
                     list.add(p4);
                 }
 

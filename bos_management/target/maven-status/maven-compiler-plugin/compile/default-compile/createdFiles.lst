@@ -14,7 +14,6 @@ cn/cl/bos/service/base/StandardSerbiceImpl.class
 cn/cl/bos/web/action/base/AreaAction$1.class
 cn/cl/bos/domain/base/TakeTime.class
 cn/cl/bos/web/action/base/AreaAction.class
-cn/cl/bos/service/base/CourierServiceImpl.class
 cn/cl/bos/domain/base/Area.class
 cn/cl/bos/web/action/base/CourierAction$1.class
 cn/cl/bos/dao/base/AreaRepository.class

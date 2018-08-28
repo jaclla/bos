@@ -2,6 +2,7 @@ package cn.cl.bos.web.action.base;
 
 import cn.cl.bos.domain.base.Standard;
 import cn.cl.bos.service.base.StandardService;
+import cn.cl.bos.web.action.base.common.BaseAction;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
@@ -24,33 +25,33 @@ import java.util.Map;
 @Namespace("/")
 @Controller
 @Scope("prototype")
-public class StandardAction extends ActionSupport implements ModelDriven<Standard> {
+public class StandardAction extends BaseAction<Standard> {
 
     @Autowired
     private StandardService standardService;
-    //模型驱动
-    private Standard standard = new Standard();
-    //    属性驱动
-    private int page;//页码
-    private int rows; //行数
-
-    public void setPage(int page) {
-        this.page = page;
-    }
-
-    public void setRows(int rows) {
-        this.rows = rows;
-    }
-
-    @Override
-    public Standard getModel() {
-        return standard;
-    }
+//    //模型驱动
+//    private Standard standard = new Standard();
+//    //    属性驱动
+//    private int page;//页码
+//    private int rows; //行数
+//
+//    public void setPage(int page) {
+//        this.page = page;
+//    }
+//
+//    public void setRows(int rows) {
+//        this.rows = rows;
+//    }
+//
+//    @Override
+//    public Standard getModel() {
+//        return standard;
+//    }
 
     //数据保存
     @Action(value = "standard_save", results = @Result(name = SUCCESS, type = "redirect", location = "/pages/base/standard.html"))
     public String save() {
-        standardService.save(standard);
+        standardService.save(model);
         return SUCCESS;
     }
 

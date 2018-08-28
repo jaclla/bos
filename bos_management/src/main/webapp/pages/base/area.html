@@ -196,6 +196,7 @@
                 },
                 onComplete: function (response) {
                     alert("文件上传成功！");
+                    $("#grid").datagrid('reload');
                 }
             });
             //查询按钮

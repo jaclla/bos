@@ -815,3 +815,8 @@
 0:0:0:0:0:0:0:1 - - [27/Aug/2018:21:35:23 +0800] "GET /pages/base/courier.html HTTP/1.1" 304 - http-bio-8085-exec-3 1
 0:0:0:0:0:0:0:1 - - [27/Aug/2018:21:35:24 +0800] "POST /standard_findAll HTTP/1.1" 200 568 http-bio-8085-exec-3 10
 0:0:0:0:0:0:0:1 - - [27/Aug/2018:21:35:24 +0800] "POST /courier_pageQuery HTTP/1.1" 200 691 http-bio-8085-exec-5 20
+0:0:0:0:0:0:0:1 - - [27/Aug/2018:21:43:01 +0800] "POST /area_pageQuery HTTP/1.1" 200 4446 http-bio-8085-exec-1 394
+0:0:0:0:0:0:0:1 - - [27/Aug/2018:21:43:02 +0800] "POST /standard_pageQuery HTTP/1.1" 200 451 http-bio-8085-exec-2 63
+0:0:0:0:0:0:0:1 - - [27/Aug/2018:21:43:03 +0800] "POST /standard_findAll HTTP/1.1" 200 568 http-bio-8085-exec-3 32
+0:0:0:0:0:0:0:1 - - [27/Aug/2018:21:43:03 +0800] "POST /standard_pageQuery HTTP/1.1" 200 451 http-bio-8085-exec-4 15
+0:0:0:0:0:0:0:1 - - [27/Aug/2018:21:43:03 +0800] "POST /courier_pageQuery HTTP/1.1" 200 691 http-bio-8085-exec-5 63
