@@ -15,17 +15,64 @@
 		<script type="text/javascript" src="../../js/easyui/ext/jquery.cookie.js"></script>
 		<script src="../../js/easyui/locale/easyui-lang-zh_CN.js" type="text/javascript"></script>
 		<script type="text/javascript">
-			function doAdd(){
+            // 自定义序列化方法
+            $.fn.serializeJson = function () {
+                var serializeObj = {};
+                var array = this.serializeArray();
+                var str = this.serialize();
+                $(array).each(function () {
+                    if (serializeObj[this.name]) {
+                        if ($.isArray(serializeObj[this.name])) {
+                            serializeObj[this.name].push(this.value);
+                        } else {
+                            serializeObj[this.name] = [serializeObj[this.name], this.value];
+                        }
+                    } else {
+                        serializeObj[this.name] = this.value;
+                    }
+                });
+                return serializeObj;
+            };
+
+            function doAdd(){
 				$('#addWindow').window("open");
 			}
 			
 			function doEdit(){
-				alert("修改...");
-			}
-			
-			function doDelete(){
-				alert("删除...");
-			}
+                //获取选中行的数据
+                var rows = $("#grid").datagrid("getSelections");
+                if (rows.length != 1) {
+                    // 选中多行或者没选中
+                    $.messager.alert("警告", "只能选中一行", "warning");
+                } else {
+                    //选中一行
+                    var row = rows[0];
+                    //将数据从session中取出回显到表单
+                    $("#fixedArea_Form").form('load', row);
+                    //打开表单
+                    $("#addWindow").window('open');
+                }
+            }
+
+            function doDelete() {
+                //获取选中行的数据
+                var rows = $("#grid").datagrid("getSelections");
+                if (rows.length == 0) {
+                    // 选中多行或者没选中
+                    $.messager.alert("警告", "必选勾选选中一到多行", "warning");
+                } else {
+                    $.messager.confirm('确认', '确认删除吗？', function (r) {
+                        if (r) {
+                            var array = new Array();
+                            for (var i = 0; i < rows.length; i++) {
+                                array.push(rows[i].id);
+                            }
+                            var ids = array.join(",");
+                            window.location.href = "/fixedArea_delBatch?ids=" + ids;
+                        }
+                    });
+                }
+            }
 			
 			function doSearch(){
 				$('#searchWindow').window("open");
@@ -129,7 +176,7 @@
 					pageList: [30,50,100],
 					pagination : true,
 					toolbar : toolbar,
-					url : "../../data/fixed_area.json",
+					url : "/fixedArea_pageQuery",
 					idField : 'id',
 					columns : columns,
 					onDblClickRow : doDblClickRow
@@ -156,9 +203,23 @@
 			        height: 400,
 			        resizable:false
 			    });
-				$("#btn").click(function(){
-					alert("执行查询...");
+				$("#Searchbtn").click(function(){
+                    //将json数据序列化
+                    var params = $("#searchForm").serializeJson();
+                    //    发送请求
+                    $("#grid").datagrid('load', params);
+                    //关闭窗口
+                    $("#searchWindow").window('close');
 				});
+                $("#saveBtn").click(function () {
+                    if ($("#fixedArea_Form").form("validate")) {
+                        //校验通过
+                        $("#fixedArea_Form").submit();
+                    } else {
+                        //校验没通过
+                        $.messager.alert("警告", "校验没通过", "warning");
+                    }
+                });
 				
 			});
 		
@@ -334,12 +395,12 @@
 		<div class="easyui-window" title="定区添加修改" id="addWindow" collapsible="false" minimizable="false" maximizable="false" style="top:20px;left:200px">
 			<div style="height:31px;overflow:hidden;" split="false" border="false">
 				<div class="datagrid-toolbar">
-					<a id="save" icon="icon-save" href="#" class="easyui-linkbutton" plain="true">保存</a>
+					<a id="saveBtn" icon="icon-save" href="#" class="easyui-linkbutton" plain="true">保存</a>
 				</div>
 			</div>
 
 			<div style="overflow:auto;padding:5px;" border="false">
-				<form>
+				<form id="fixedArea_Form" action="/fixedArea_save" method="post">
 					<table class="table-edit" width="80%" align="center">
 						<tr class="title">
 							<td colspan="2">定区信息</td>
@@ -381,7 +442,7 @@
 		<!-- 查询定区 -->
 		<div class="easyui-window" title="查询定区窗口" id="searchWindow" collapsible="false" minimizable="false" maximizable="false" style="top:20px;left:200px">
 			<div style="overflow:auto;padding:5px;" border="false">
-				<form>
+				<form id="searchForm">
 					<table class="table-edit" width="80%" align="center">
 						<tr class="title">
 							<td colspan="2">查询条件</td>
@@ -399,13 +460,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td>分区</td>
-							<td>
-								<input type="text" name="subareaName" class="easyui-validatebox" required="true" />
-							</td>
-						</tr>
-						<tr>
-							<td colspan="2"><a id="btn" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'">查询</a> </td>
+							<td colspan="2"><a id="Searchbtn" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'">查询</a> </td>
 						</tr>
 					</table>
 				</form>

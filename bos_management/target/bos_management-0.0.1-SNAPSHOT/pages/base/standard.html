@@ -80,7 +80,7 @@
             handler: function () {
                 //获取当前选中行的数据
                 var rows = $("#grid").datagrid('getSelections');
-                if (rows.length != 1) {
+                if (rows.length ==0) {
                     //选中多行或者未选中
                     $.messager.alert('警告', '选中多行或者未选中行', 'warning');
                 } else {
@@ -88,10 +88,12 @@
                     var row = rows[0];
                     $.messager.confirm('确认', '确认删除吗？', function (r) {
                         if (r) {
-                            var id = row.id;
-                            //确认
-                            //获得要删除的数据
-                            window.location.href="/standard_delete?id="+id;
+                            var array = new Array();
+                            for (var i = 0; i < rows.length; i++) {
+                                array.push(rows[i].id);
+                            }
+                            var ids = array.join(",");
+                            window.location.href = "/standard_delete?ids=" + ids;
                         }
                     });
 

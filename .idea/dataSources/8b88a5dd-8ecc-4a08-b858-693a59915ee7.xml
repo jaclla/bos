@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@192.168.34.26">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.10">
+    <root id="1">
+      <ServerVersion>11.2.0.2</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="CL2">
+      <ObjectId>53</ObjectId>
+      <IntrospectionTimestamp>2018-08-29.22:37:30</IntrospectionTimestamp>
+      <CreatedTimestamp>2018-08-29.22:37:20</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-29.22:37:22</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>29</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="YULEE">
+      <ObjectId>49</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="CL">
+      <ObjectId>50</ObjectId>
+      <IntrospectionTimestamp>2018-08-29.22:32:30</IntrospectionTimestamp>
+    </schema>
+    <schema id="21" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="22" parent="2" name="HIBERNATE_SEQUENCE">
+      <ObjectId>20360</ObjectId>
+      <CreatedTimestamp>2018-08-29.22:37:22</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-29.22:37:22</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="23" parent="2" name="T_CUSTOMER">
+      <ObjectId>20358</ObjectId>
+      <CreatedTimestamp>2018-08-29.22:37:20</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-29.22:37:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="24" parent="23" name="C_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="23" name="C_ADDRESS">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255 char)|0us</DataType>
+    </column>
+    <column id="26" parent="23" name="C_BRITHDAY">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="27" parent="23" name="C_COMPANY">
+      <Position>4</Position>
+      <DataType>VARCHAR2(255 char)|0us</DataType>
+    </column>
+    <column id="28" parent="23" name="C_DEPARTMENT">
+      <Position>5</Position>
+      <DataType>VARCHAR2(255 char)|0us</DataType>
+    </column>
+    <column id="29" parent="23" name="C_EMAIL">
+      <Position>6</Position>
+      <DataType>VARCHAR2(255 char)|0us</DataType>
+    </column>
+    <column id="30" parent="23" name="C_FIXED_AREA_ID">
+      <Position>7</Position>
+      <DataType>VARCHAR2(255 char)|0us</DataType>
+    </column>
+    <column id="31" parent="23" name="C_MOBILEPHONE">
+      <Position>8</Position>
+      <DataType>VARCHAR2(255 char)|0us</DataType>
+    </column>
+    <column id="32" parent="23" name="C_PASSWORD">
+      <Position>9</Position>
+      <DataType>VARCHAR2(255 char)|0us</DataType>
+    </column>
+    <column id="33" parent="23" name="C_POSITION">
+      <Position>10</Position>
+      <DataType>VARCHAR2(255 char)|0us</DataType>
+    </column>
+    <column id="34" parent="23" name="C_SEX">
+      <Position>11</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="35" parent="23" name="C_TELEPHONE">
+      <Position>12</Position>
+      <DataType>VARCHAR2(255 char)|0us</DataType>
+    </column>
+    <column id="36" parent="23" name="C_TYPE">
+      <Position>13</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="37" parent="23" name="C_USERNAME">
+      <Position>14</Position>
+      <DataType>VARCHAR2(255 char)|0us</DataType>
+    </column>
+    <index id="38" parent="23" name="SYS_C007152">
+      <ObjectId>20359</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-08-29.22:37:20</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-29.22:37:20</ModifiedTimestamp>
+      <TablespaceName>CLBOS</TablespaceName>
+      <ColNames>C_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="39" parent="23" name="SYS_C007152">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-08-29.22:37:21</ModifiedTimestamp>
+      <ColNames>C_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C007152</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

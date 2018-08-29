@@ -1,21 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="bos_management:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8d457f1-24a4-45dc-9df3-5b0974136818" name="Default Changelist" comment="">
+    <list default="true" id="d57eb770-542a-47dc-b56a-1b8e7293ab3c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b5503751-09b0-4e81-ac86-4083a3899a53.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b5503751-09b0-4e81-ac86-4083a3899a53.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/FixedArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/FixedArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/AreaAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/AreaAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/fixed_area.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/fixed_area.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/sub_area.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/sub_area.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/370bc74e-a6af-4ccb-af84-a51992af3141.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/ANONYMOUS.TYQsKQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/BI.RwgAAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/CL.aQgAAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/CTXSYS.Rqsddw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/CZX.wQYBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/DBSNMP.vILSdw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/DIP.awgBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/HR.CgkAAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/IX.LwkAAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/MDSYS.tj1dBA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/MGMT_VIEW.Y6cC5g.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/OE.1gkAAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/OUTLN.MCmBBA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/PM._QkAAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/SCOTT.v0axBA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/SH.VQoAAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/SYSMAN.bUuvkg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/WMSYS.F0DuBA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/XDB.1lIBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/storage_v2/_src_/schema/YULEE.UPUNBQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b5503751-09b0-4e81-ac86-4083a3899a53.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b5503751-09b0-4e81-ac86-4083a3899a53/storage_v2/_src_/schema/CL.aQgAAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/dao/base/AreaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/dao/base/AreaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/domain/base/Area.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/domain/base/Area.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/domain/base/FixedArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/domain/base/FixedArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/service/base/AreaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/service/base/AreaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/service/base/AreaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/service/base/AreaServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/service/base/StandardSerbiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/service/base/StandardSerbiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/service/base/StandardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/service/base/StandardService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/web/action/base/AreaAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/web/action/base/AreaAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/web/action/base/CourierAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/web/action/base/CourierAction$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/web/action/base/CourierAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/web/action/base/CourierAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/web/action/base/StandardAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/bos/web/action/base/StandardAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/area.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/area.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/courier.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/courier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/fixed_area.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/fixed_area.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/standard.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/standard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/sub_area.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/sub_area.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/tomcat/logs/access_log.2018-08-27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/tomcat/logs/access_log.2018-08-28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_parent/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/common_parent/target/" />
+    <ignored path="$PROJECT_DIR$/crm_domain/target/" />
+    <ignored path="$PROJECT_DIR$/crm_management/target/" />
     <ignored path="$PROJECT_DIR$/bos_management/target/" />
+    <ignored path="$PROJECT_DIR$/common_parent/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +96,16 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@192.168.34.24" type="feb32156:DbDataSourceImpl" />
+        <item name="Oracle - @192.168.34.26" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@192.168.34.24" type="feb32156:DbDataSourceImpl" />
+        <item name="Oracle - @192.168.34.26" type="feb32156:DbDataSourceImpl" />
         <item name="CL: schema" type="ac44c5e0:OracleImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@192.168.34.24" type="feb32156:DbDataSourceImpl" />
+        <item name="Oracle - @192.168.34.26" type="feb32156:DbDataSourceImpl" />
         <item name="CL: schema" type="ac44c5e0:OracleImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
@@ -66,207 +116,85 @@
     <session id="1962622980">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="HIBERNATE_SEQUENCE" value="1" />
-          <entry key="MV_ADDRESS1" value="3" />
-          <entry key="MV_ADDRESS3" value="2" />
-          <entry key="MV_ADDRESS4" value="1" />
-          <entry key="T_ARCHIVE" value="1" />
-          <entry key="T_AREA" value="6" />
-          <entry key="T_COURIER" value="2" />
-          <entry key="T_FIXED_AREA" value="3" />
-          <entry key="T_INDEXTEST" value="1" />
-          <entry key="T_STANDARD" value="8" />
-          <entry key="class" value="1" />
-          <entry key="css" value="5" />
-          <entry key="html" value="39" />
-          <entry key="java" value="154" />
-          <entry key="js" value="7" />
-          <entry key="json" value="7" />
-          <entry key="jsp" value="2" />
-          <entry key="partitions" value="1" />
-          <entry key="properties" value="13" />
-          <entry key="sql" value="4" />
-          <entry key="t_books" value="1" />
-          <entry key="xml" value="17" />
+          <entry key="pom" value="5" />
+          <entry key="properties" value="7" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="CSS" value="5" />
-          <entry key="Database Element" value="29" />
-          <entry key="HTML" value="39" />
-          <entry key="JAVA" value="154" />
-          <entry key="JSON" value="7" />
-          <entry key="JSP" value="2" />
-          <entry key="JavaScript" value="7" />
-          <entry key="Properties" value="13" />
-          <entry key="SQL" value="1" />
-          <entry key="Scratch" value="4" />
+          <entry key="Properties" value="7" />
+          <entry key="Scratch" value="1" />
           <entry key="XML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cell" value="94" />
-          <entry key="html" value="3982" />
-          <entry key="java" value="5513" />
-          <entry key="properties" value="65" />
-          <entry key="xml" value="675" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3982" />
-          <entry key="JAVA" value="5513" />
-          <entry key="Properties" value="65" />
-          <entry key="Scratch" value="94" />
-          <entry key="XML" value="675" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="66" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/fixed_area.html">
+        <entry file="file://$PROJECT_DIR$/crm_management/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="70" column="71" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="71" />
-              <folding>
-                <element signature="e#978#1616#0" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/area.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="910">
-              <caret line="79" column="9" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="79" selection-end-column="9" />
-              <folding>
-                <element signature="e#1106#1744#0" />
-              </folding>
-            </state>
-          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/FixedAreaAction.java">
+        <entry file="file://$PROJECT_DIR$/crm_management/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#fixedArea_pageQuery#0;class#FixedAreaAction#0" />
-                <element signature="e#2089#2970#0" expanded="true" />
-                <element signature="e#2969#2970#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/AreaAction.java">
+        <entry file="file://$PROJECT_DIR$/crm_management/src/main/resources/applicationContext-dataSource.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="243" lean-forward="true" selection-start-line="243" selection-end-line="243" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#batchImport#0;class#AreaAction#0" />
-                <element signature="method#pageQuery#0;class#AreaAction#0" />
-              </folding>
+            <state relative-caret-position="109">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="package.json" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>validate</find>
-      <find>c3</find>
-      <find>tbody</find>
-      <find>json</find>
-      <find>保存</find>
-      <find>fixedAreas</find>
-      <find>Datagrid</find>
-      <find>button-add</find>
-      <find>save</find>
-      <find>searchBtn</find>
-      <find>area_form</find>
-      <find>基础数据</find>
-      <find>treeMenu</find>
-      <find>grid</find>
-      <find>searchForm</find>
-      <find>Searchbtn</find>
-      <find>fixedArea</find>
-      <find>fixedArea_Form</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/WEB-INF/text.html" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/domain/base/Area.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/domain/base/FixedArea.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/dao/base/StandardRepository.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/StandardService.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/CourierService.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/dao/base/CourierRepository.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/js/package.json" />
+        <option value="$PROJECT_DIR$/crm_domain/pom.xml" />
+        <option value="$PROJECT_DIR$/bos_management/pom.xml" />
         <option value="$PROJECT_DIR$/common_parent/pom.xml" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/utils/PinYin4jUtils.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/CourierServiceImpl.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/dao/base/AreaRepository.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/Area.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/courier.html" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/AreaService.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/AreaServiceImpl.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/StandardSerbiceImpl.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/standard.html" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/Courier.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/area.html" />
+        <option value="$PROJECT_DIR$/crm_management/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/crm_management/src/main/resources/applicationContext-dataSource.xml" />
         <option value="$PROJECT_DIR$/bos_management/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/common/BaseAction.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/CourierAction.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/StandardAction.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/dao/base/FixedAreaRepository.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/AreaAction.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/sub_area.html" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/FixedArea.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/fixed_area.html" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/FixedAreaService.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/FixedAreaAction.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/FixedAreaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/crm_management/pom.xml" />
+        <option value="$PROJECT_DIR$/crm_management/src/main/resources/config.properties" />
       </list>
     </option>
   </component>
@@ -275,13 +203,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -294,6 +215,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
         <option name="lookForNested" value="true" />
       </MavenImportingSettings>
     </option>
@@ -303,28 +225,25 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bos_management" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="crm_management" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="common_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="crm_management" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="common_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="common_parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="crm_management" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="115" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="807" />
   </component>
@@ -359,87 +278,48 @@
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
+              <item name="common_parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bos" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bos" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bos" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bos" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
+              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
+              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
+              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -449,26 +329,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql&#10;oracle" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="struts2&#9;FILE&#9;jar:///Users/Logic/Documents/maven/repository/org/apache/struts/struts2-json-plugin/2.3.24/struts2-json-plugin-2.3.24.jar!/org/apache/struts2&#10;part.class&#9;FILE&#9;jar:///Users/Logic/Documents/maven/repository/org/springframework/data/spring-data-commons/1.11.0.RELEASE/spring-data-commons-1.11.0.RELEASE.jar!/org/springframework/data/repository/query/parser/Part.class&#10;part&#9;null&#9;null" />
+    <property name="DatabaseDriversLRU" value="oracle" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535445143988" />
-    <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.14716312" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/utils" />
-      <recent name="$PROJECT_DIR$/bos_management/src/main/webapp/js/ocupload" />
-      <recent name="$PROJECT_DIR$/bos_management/src/main/java/cn/cl" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -482,179 +351,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.common_parent [tomcat7:run]">
-    <configuration name="common_parent [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="tomcat7:run" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/common_parent" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="text.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.81" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8083/WEB-INF/text.html" />
-      <deployment>
-        <artifact name="bos_management:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="text_html_bos" />
-        <option name="HTTP_PORT" value="8083" />
-        <option name="JNDI_PORT" value="1234" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="62474" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="bos_management:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Maven.common_parent [tomcat7:run]" />
-      <item itemvalue="Tomcat Server.text.html" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Tomcat Server.text.html" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f8d457f1-24a4-45dc-9df3-5b0974136818" name="Default Changelist" comment="" />
-      <created>1534770934088</created>
+      <changelist id="d57eb770-542a-47dc-b56a-1b8e7293ab3c" name="Default Changelist" comment="" />
+      <created>1535521974374</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1534770934088</updated>
-      <workItem from="1534770935601" duration="138000" />
-      <workItem from="1534817598562" duration="6956000" />
-      <workItem from="1534847697815" duration="2009000" />
-      <workItem from="1534850107020" duration="17508000" />
-      <workItem from="1534984596543" duration="7665000" />
-      <workItem from="1535004138468" duration="54339000" />
-      <workItem from="1535199441252" duration="43500000" />
+      <updated>1535521974374</updated>
+      <workItem from="1535521976290" duration="1415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132115000" />
+    <option name="totallyTimeSpent" value="1415000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="807" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25107297" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="CheckStyle" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.3090909" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="CheckStyle" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.38741258" />
-      <window_info anchor="bottom" id="Problems" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32867134" />
-      <window_info anchor="bottom" id="Application Servers" order="16" weight="0.32867134" />
-      <window_info anchor="bottom" id="Messages" order="17" />
-      <window_info anchor="bottom" id="Database Console" order="18" weight="0.32867134" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" weight="0.3297568" />
+      <window_info active="true" anchor="right" id="Database" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297568" />
-      <window_info anchor="right" id="Database" order="6" weight="0.14306152" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -668,424 +417,80 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="696" selection-start-line="696" selection-end-line="696" />
-          <folding>
-            <element signature="e#32809#32810#0" expanded="true" />
-            <element signature="e#66071#66072#0" expanded="true" />
-            <element signature="e#66118#66119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/schema/CL/table/T_STANDARD">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7136de1b-b5e7-4b89-a41d-c1a63fce9cbe/schema/CL/table/T_COURIER">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/js/easyui/jquery.easyui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="7683" column="25" lean-forward="true" selection-start-line="7683" selection-start-column="25" selection-end-line="7683" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b5503751-09b0-4e81-ac86-4083a3899a53/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/js/easyui/locale/easyui-lang-zh_CN.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/js/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/js/ocupload/jquery.ocupload-1.1.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Web资料/bos2.0下发资料/day04/代码/项目代码/bos_management/src/main/java/cn/itcast/bos/web/action/base/AreaAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1759" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common_parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="257" column="26" selection-start-line="257" selection-start-column="26" selection-end-line="257" selection-end-column="26" />
+        <state relative-caret-position="114">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/utils/PinYin4jUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/CourierService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b5503751-09b0-4e81-ac86-4083a3899a53/schema/CL/table/T_COURIER">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b5503751-09b0-4e81-ac86-4083a3899a53/schema/CL/table/T_AREA">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/Area.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/courier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="76" column="70" lean-forward="true" selection-start-line="71" selection-start-column="16" selection-end-line="76" selection-end-column="70" />
-          <folding>
-            <element signature="e#996#1634#0" />
-            <element signature="e#3001#3609#0" />
-            <element signature="e#3656#3714#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/AreaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/CourierServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/AreaServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/StandardSerbiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/StandardService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b5503751-09b0-4e81-ac86-4083a3899a53/schema/CL/table/T_STANDARD">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/Standard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/standard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="104" column="14" lean-forward="true" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/dao/base/AreaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="92" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/Courier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-          <folding>
-            <element signature="e#2803#2804#0" expanded="true" />
-            <element signature="e#2827#2828#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="57" selection-start-line="8" selection-start-column="26" selection-end-line="9" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bos_management/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="228">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../maven/setting.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/validatecode.jsp">
+    <entry file="file://$PROJECT_DIR$/crm_management/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-455" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="99" column="11" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+        <state relative-caret-position="266">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1101" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/system/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-212" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/dao/base/CourierRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/dao/base/StandardRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/dao/base/FixedAreaRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="112" selection-start-line="6" selection-start-column="112" selection-end-line="6" selection-end-column="112" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/StandardAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/sub_area.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <caret line="189" selection-start-line="189" selection-end-line="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/common/BaseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/FixedArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://b5503751-09b0-4e81-ac86-4083a3899a53/schema/CL/table/T_FIXED_AREA">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/area.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="79" column="9" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="79" selection-end-column="9" />
-          <folding>
-            <element signature="e#1106#1744#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/fixed_area.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="70" column="71" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="71" />
-          <folding>
-            <element signature="e#978#1616#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/AreaAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="243" lean-forward="true" selection-start-line="243" selection-end-line="243" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#batchImport#0;class#AreaAction#0" />
-            <element signature="method#pageQuery#0;class#AreaAction#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/CourierAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="115" column="5" lean-forward="true" selection-start-line="111" selection-start-column="2" selection-end-line="115" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#pageQuery#0;class#CourierAction#0" />
-            <element signature="method#restoreBatch#0;class#CourierAction#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/FixedAreaService.java">
+    <entry file="file://$PROJECT_DIR$/../../maven/repository/cn/itcast/maven/crm_domain/0.0.1-SNAPSHOT/crm_domain-0.0.1-SNAPSHOT.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/FixedAreaServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/crm_domain/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm_management/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/FixedAreaAction.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9346ada7-2ff6-4fbe-b7ce-8a8855dbaabd/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#fixedArea_pageQuery#0;class#FixedAreaAction#0" />
-            <element signature="e#2089#2970#0" expanded="true" />
-            <element signature="e#2969#2970#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm_management/src/main/resources/applicationContext-dataSource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm_management/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm_management/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -1108,7 +513,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1144,12 +549,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>bos_management</last-edited>
+          <last-edited>common_parent</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
