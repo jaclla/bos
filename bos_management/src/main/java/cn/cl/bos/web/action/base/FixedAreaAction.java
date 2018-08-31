@@ -3,7 +3,10 @@ package cn.cl.bos.web.action.base;
 import cn.cl.bos.domain.base.FixedArea;
 import cn.cl.bos.service.base.FixedAreaService;
 import cn.cl.bos.web.action.base.common.BaseAction;
+import cn.cl.crm.domain.Customer;
+import com.opensymphony.xwork2.ActionContext;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.cxf.jaxrs.client.WebClient;
 import org.apache.struts2.convention.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
@@ -17,7 +20,9 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
+import javax.ws.rs.core.MediaType;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 @ParentPackage("json-default")
@@ -31,7 +36,7 @@ public class FixedAreaAction extends BaseAction<FixedArea> {
     private FixedAreaService fixedAreaService;
 
     //保存修改
-    @Action(value = "fixedArea_save",results = @Result(name = SUCCESS,type = "redirect",location ="pages/base/fixed_area.html"))
+    @Action(value = "fixedArea_save", results = @Result(name = SUCCESS, type = "redirect", location = "pages/base/fixed_area.html"))
     public String fixedArea_save() {
         fixedAreaService.save(model);
         return SUCCESS;
@@ -42,6 +47,7 @@ public class FixedAreaAction extends BaseAction<FixedArea> {
     public void setIds(String ids) {
         this.ids = ids;
     }
+
     //数据删除
     @Action(value = "fixedArea_delBatch", results = @Result(name = SUCCESS, type = "redirect", location = "pages/base/fixed_area.html"))
     public String fixedArea_delBatch() {
@@ -51,8 +57,9 @@ public class FixedAreaAction extends BaseAction<FixedArea> {
         return SUCCESS;
     }
 
-    @Action(value = "fixedArea_pageQuery",results = @Result(name = SUCCESS, type = "json"))
-    public String fixedArea_pageQuery(){
+    //分页查询和显示
+    @Action(value = "fixedArea_pageQuery", results = @Result(name = SUCCESS, type = "json"))
+    public String fixedArea_pageQuery() {
         //获取分页数据
         Pageable pageable = new PageRequest(this.page - 1, rows);
         //根据查询条件 构建条件查询对象
@@ -87,6 +94,50 @@ public class FixedAreaAction extends BaseAction<FixedArea> {
 //        //将map转换成json 使用struts2-json-plugin插件
 //        ActionContext.getContext().getValueStack().push(result);
         pushPageDataToValueStack(pageData);
+        return SUCCESS;
+    }
+
+    //    属性驱动
+    private String[] customerIds;
+
+    public void setCustomerIds(String[] customerIds) {
+        this.customerIds = customerIds;
+    }
+
+    //    绑定定区和客户
+    @Action(value = "decidedzone_assigncustomerstodecidedzone", results = @Result(name = SUCCESS, type = "redirect", location = "/pages/base/fixed_area.html"))
+    public String decidedzone_assigncustomerstodecidedzone() {
+        String customerIdStr = StringUtils.join(customerIds, ",");
+        WebClient.create("http://localhost:8088/crm_management/services/customerService/associationcustomerstofixedarea?customerIdStr=" + customerIdStr + "&fixedAreaId=" + model.getId())
+                .put(null);
+        return SUCCESS;
+    }
+
+    //查询没有分配定区的客户信息
+    @Action(value = "fixedArea_findNoAssociationCustomers", results = @Result(name = SUCCESS, type = "json"))
+    public String fixedArea_findNoAssociationCustomers() {
+        //使用webClient调用webService接口
+        Collection<? extends Customer> collection = WebClient
+                .create("http://localhost:8088/crm_management/services/customerService/noassociationcustomers")
+                .accept(MediaType.APPLICATION_JSON)
+                .getCollection(Customer.class);
+        ActionContext.getContext().getValueStack().push(collection);
+
+        return SUCCESS;
+    }
+
+    //查询已经分配定区的客户信息
+    @Action(value = "fixedArea_findHasAssociationFixedAreaCustomers", results = @Result(name = SUCCESS, type = "json"))
+    public String fixedArea_findHasAssociationFixedAreaCustomers() {
+
+        //使用webClient调用webService接口
+        Collection<? extends Customer> collection = WebClient
+                .create("http://localhost:8088/crm_management/services/customerService/associationfixedareacustomers/" + model.getId())
+                .accept(MediaType.APPLICATION_JSON)
+                .type(MediaType.APPLICATION_JSON)
+                .getCollection(Customer.class);
+        ActionContext.getContext().getValueStack().push(collection);
+
         return SUCCESS;
     }
 }

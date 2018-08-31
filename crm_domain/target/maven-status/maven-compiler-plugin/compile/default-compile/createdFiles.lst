@@ -1,1 +1,4 @@
+cn/cl/crm/service/Impl/CustomerServiceImpl.class
 cn/cl/crm/domain/Customer.class
+cn/cl/crm/service/CustomerService.class
+cn/cl/crm/dao/CustomerRepository.class

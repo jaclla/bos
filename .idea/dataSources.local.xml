@@ -11,11 +11,15 @@
       <user-name>CL</user-name>
       <introspection-schemas>*:CL</introspection-schemas>
     </data-source>
-    <data-source name="@192.168.34.26" uuid="8b88a5dd-8ecc-4a08-b858-693a59915ee7">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="ORACLE" exact-version="0.0" />
+    <data-source name="@192.168.34.22" uuid="8b88a5dd-8ecc-4a08-b858-693a59915ee7">
+      <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0" family="ORACLE" exact-version="11.2.0.2">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <first-sync>true</first-sync>
       <user-name>Cl2</user-name>
+      <introspection-schemas>*:CL2</introspection-schemas>
     </data-source>
   </component>
 </project>
