@@ -1,7 +1,8 @@
-package cn.cl.bos.service.base;
+package cn.cl.bos.service.base.Impl;
 
 import cn.cl.bos.dao.base.StandardRepository;
 import cn.cl.bos.domain.base.Standard;
+import cn.cl.bos.service.base.StandardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

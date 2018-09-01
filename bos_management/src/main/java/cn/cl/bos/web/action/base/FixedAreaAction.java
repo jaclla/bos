@@ -113,6 +113,27 @@ public class FixedAreaAction extends BaseAction<FixedArea> {
         return SUCCESS;
     }
 
+
+    //属性驱动
+    private Integer courierId;
+    private Integer takeTimeId;
+
+    public void setCourierId(Integer courierId) {
+        this.courierId = courierId;
+    }
+
+    public void setTakeTimeId(Integer takeTimeId) {
+        this.takeTimeId = takeTimeId;
+    }
+
+    //    绑定定区和快递员和分派时间
+    @Action(value = "fixedArea_associationCourierToFixedArea", results = @Result(name = SUCCESS, type = "redirect", location = "/pages/base/fixed_area.html"))
+    public String fixedArea_associationCourierToFixedArea() {
+        fixedAreaService.fixedArea_associationCourierToFixedArea(model,courierId,takeTimeId);
+
+        return SUCCESS;
+    }
+
     //查询没有分配定区的客户信息
     @Action(value = "fixedArea_findNoAssociationCustomers", results = @Result(name = SUCCESS, type = "json"))
     public String fixedArea_findNoAssociationCustomers() {
@@ -140,4 +161,6 @@ public class FixedAreaAction extends BaseAction<FixedArea> {
 
         return SUCCESS;
     }
+
+
 }

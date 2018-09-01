@@ -18,7 +18,7 @@
 			$(function(){
 				// 先将body隐藏，再显示，不会出现页面刷新效果
 				$("body").css({visibility:"visible"});
-				
+
 				// 收派时间管理信息表格
 				$('#grid').datagrid( {
 					iconCls : 'icon-forward',
@@ -29,12 +29,12 @@
 					pageList: [30,50,100],
 					pagination : true,
 					toolbar : toolbar,
-					url : "../../data/take_time.json",
+					url : "/taketime_pageQuery",
 					idField : 'id',
 					columns : columns
 				});
-			});	
-			
+			});
+
 			//工具栏
 			var toolbar = [ {
 				id : 'button-add',
@@ -58,7 +58,7 @@
 					alert('删除');
 				}
 			} ];
-			
+
 			// 定义列
 			var columns = [ [ {
 				field : 'id',

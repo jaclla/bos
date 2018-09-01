@@ -11,4 +11,6 @@ public interface FixedAreaService {
     Page<FixedArea> findPageData(Specification<FixedArea> specification, Pageable pageable);
 
     void delete(String[] model);
+
+    void fixedArea_associationCourierToFixedArea(FixedArea model, Integer courierId, Integer takeTimeId);
 }

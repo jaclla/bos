@@ -1,7 +1,12 @@
-package cn.cl.bos.service.base;
+package cn.cl.bos.service.base.Impl;
 
+import cn.cl.bos.dao.base.CourierRepository;
 import cn.cl.bos.dao.base.FixedAreaRepository;
+import cn.cl.bos.dao.base.TakeTimeRepository;
+import cn.cl.bos.domain.base.Courier;
 import cn.cl.bos.domain.base.FixedArea;
+import cn.cl.bos.domain.base.TakeTime;
+import cn.cl.bos.service.base.FixedAreaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -30,6 +35,23 @@ public class FixedAreaServiceImpl implements FixedAreaService {
         for (String s : model) {
             fixedAreaRepository.delete(s);
         }
+    }
+
+    @Autowired
+    private CourierRepository courierRepository;
+    @Autowired
+    private TakeTimeRepository takeTimeRepository;
+    @Override
+    public void fixedArea_associationCourierToFixedArea(FixedArea model, Integer courierId, Integer takeTimeId) {
+        FixedArea fixedArea = fixedAreaRepository.findOne(model.getId());
+
+        Courier courier = courierRepository.findOne(courierId);
+
+        TakeTime takeTime = takeTimeRepository.findOne(takeTimeId);
+
+        fixedArea.getCouriers().add(courier);
+
+        courier.setTakeTime(takeTime);
     }
 
 

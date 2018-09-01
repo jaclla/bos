@@ -6,17 +6,17 @@
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@192.168.34.22:1521:XE</jdbc-url>
+      <jdbc-url>jdbc:oracle:thin:@192.168.34.28:1521:XE</jdbc-url>
       <driver-properties>
         <property name="v$session.program" value="DataGrip" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="@192.168.34.22" uuid="8b88a5dd-8ecc-4a08-b858-693a59915ee7">
+    <data-source source="LOCAL" name="@192.168.34.28" uuid="8b88a5dd-8ecc-4a08-b858-693a59915ee7">
       <driver-ref>oracle</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@192.168.34.22:1521:XE</jdbc-url>
+      <jdbc-url>jdbc:oracle:thin:@192.168.34.28:1521:XE</jdbc-url>
       <driver-properties>
         <property name="v$session.program" value="DataGrip" />
       </driver-properties>

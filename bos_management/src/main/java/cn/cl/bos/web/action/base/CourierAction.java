@@ -133,4 +133,14 @@ public class CourierAction extends BaseAction<Courier> {
         return SUCCESS;
 
     }
+    //    查找没有关联定区的快递员
+    @Action(value = "courier_findnoassociation", results = @Result(name = SUCCESS, type = "json"))
+    public String courier_findnoassociation() {
+        //调用业务层，查询未关联定区的快递员
+        List<Courier> couriers = courierService.findNoAssociation();
+        ActionContext.getContext().getValueStack().push(couriers);
+        return SUCCESS;
+
+    }
+
 }
