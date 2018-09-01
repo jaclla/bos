@@ -9,6 +9,7 @@
         <module>../bos_management</module>
         <module>../crm_domain</module>
         <module>../crm_management</module>
+        <module>../bos_fore</module>
     </modules>
     <name>common_parent</name>
     <description>bos v2.0综合平台的公共父项目，用于统一依赖管理</description>
@@ -247,8 +248,6 @@
             <artifactId>fastjson</artifactId>
             <version>1.1.37</version>
         </dependency>
-
-
         <dependency>
             <groupId>com.colobu</groupId>
             <artifactId>fastjson-jaxrs-json-provider</artifactId>
