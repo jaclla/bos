@@ -13,6 +13,7 @@ cn/cl/bos/domain/base/SubArea.class
 cn/cl/bos/service/base/CourierService.class
 cn/cl/bos/utils/PinYin4jUtils.class
 cn/cl/bos/dao/base/FixedAreaRepository.class
+cn/cl/bos/domain/base/Promotion.class
 cn/cl/bos/dao/base/TakeTimeRepository.class
 cn/cl/bos/domain/base/Courier.class
 cn/cl/bos/dao/base/CourierRepository.class

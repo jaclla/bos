@@ -24,6 +24,7 @@
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/service/base/Impl/TakeTimeServiceImpl.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/domain/base/Vehicle.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/dao/base/TakeTimeRepository.java
+/Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/domain/base/Promotion.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/domain/base/SubArea.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/dao/base/AreaRepository.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/service/base/CourierService.java
