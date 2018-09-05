@@ -17,12 +17,12 @@
  *
  * @example $.cookie('the_cookie', 'the_value');
  * @desc Set the value of a cookie.
- * @example $.cookie('the_cookie', 'the_value', { expires: 7, path: '/', domain: 'jquery.com', secure: true });
+ * @example $.cookie('the_cookie', 'the_value', { expires: 7, path: '/', cn.cl.domain: 'jquery.com', secure: true });
  * @desc Create a cookie with all available options.
  * @example $.cookie('the_cookie', 'the_value');
  * @desc Create a session cookie.
  * @example $.cookie('the_cookie', null);
- * @desc Delete a cookie by passing null as value. Keep in mind that you have to use the same path and domain
+ * @desc Delete a cookie by passing null as value. Keep in mind that you have to use the same path and cn.cl.domain
  *       used when the cookie was set.
  *
  * @param String key The key of the cookie.
@@ -33,7 +33,7 @@
  *                             If set to null or omitted, the cookie will be a session cookie and will not be retained
  *                             when the the browser exits.
  * @option String path The value of the path atribute of the cookie (default: path of page that created the cookie).
- * @option String domain The value of the domain attribute of the cookie (default: domain of page that created the cookie).
+ * @option String cn.cl.domain The value of the cn.cl.domain attribute of the cookie (default: cn.cl.domain of page that created the cookie).
  * @option Boolean secure If true, the secure attribute of the cookie will be set and the cookie transmission will
  *                        require a secure protocol (like HTTPS).
  * @type undefined
@@ -77,7 +77,7 @@ jQuery.cookie = function (key, value, options) {
             options.raw ? String(value) : encodeURIComponent(String(value)),
             options.expires ? '; expires=' + options.expires.toUTCString() : '', // use expires attribute, max-age is not supported by IE
             options.path ? '; path=' + options.path : '',
-            options.domain ? '; domain=' + options.domain : '',
+            options.domain ? '; cn.cl.domain=' + options.domain : '',
             options.secure ? '; secure' : ''
         ].join(''));
     }

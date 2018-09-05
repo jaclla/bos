@@ -11,7 +11,7 @@
       <user-name>CL</user-name>
       <introspection-schemas>*:CL</introspection-schemas>
     </data-source>
-    <data-source name="@192.168.34.28" uuid="8b88a5dd-8ecc-4a08-b858-693a59915ee7">
+    <data-source name="@192.168.34.179" uuid="8b88a5dd-8ecc-4a08-b858-693a59915ee7">
       <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0" family="ORACLE" exact-version="11.2.0.2">
         <extra-name-characters>$#</extra-name-characters>
         <identifier-quote-string>&quot;</identifier-quote-string>
