@@ -1,4 +1,4 @@
-package cn.cl.utils;
+package cn.cl.bos.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

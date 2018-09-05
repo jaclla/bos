@@ -20,7 +20,7 @@
 	http://www.springframework.org/schema/cache
 	http://www.springframework.org/schema/cache/spring-cache.xsd">
 	
-	<context:component-scan base-package="cn.cl.redis" />
+	<context:component-scan base-package="cn.cl.bos.redis" />
 	
  	<!-- spring管理redis缓存管理器 -->
 	<bean id="redisCacheManager" 
@@ -36,13 +36,13 @@
         <property name="testOnBorrow" value="true" />  
     </bean>  
 	
-	<bean id="connectionFactory"  
+	<bean id="RedisConnectionFactory"
         class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"  
         p:host-name="127.0.0.1" p:port="6379" p:pool-config-ref="poolConfig" p:password="123"
         p:database="1" />
         
     <bean id="redisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate">  
-        <property name="connectionFactory" ref="connectionFactory" /> 
+        <property name="connectionFactory" ref="RedisConnectionFactory" />
         <property name="keySerializer">
             <bean class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer" />
         </property>

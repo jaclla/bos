@@ -1,14 +1,9 @@
-package cn.cl.web.action.common;
+package cn.cl.bos.web.action.common;
 
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
-import org.apache.struts2.convention.annotation.Actions;
-import org.apache.struts2.convention.annotation.Namespace;
-import org.apache.struts2.convention.annotation.ParentPackage;
-import org.springframework.context.annotation.Scope;
 import org.springframework.data.domain.Page;
-import org.springframework.stereotype.Controller;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

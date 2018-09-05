@@ -1,4 +1,3 @@
-/Users/Logic/Documents/git/bos/bos_fore/src/main/java/cn/cl/web/action/CustomerAction.java
-/Users/Logic/Documents/git/bos/bos_fore/src/main/java/cn/cl/web/action/common/BaseAction.java
-/Users/Logic/Documents/git/bos/bos_fore/src/main/java/cn/cl/utils/SmsUtils.java
-/Users/Logic/Documents/git/bos/bos_fore/src/main/java/cn/cl/utils/MailUtils.java
+/Users/Logic/Documents/git/bos/bos_fore/src/main/java/cn/cl/bos/utils/MailUtils.java
+/Users/Logic/Documents/git/bos/bos_fore/src/main/java/cn/cl/bos/web/action/CustomerAction.java
+/Users/Logic/Documents/git/bos/bos_fore/src/main/java/cn/cl/bos/web/action/common/BaseAction.java

@@ -1,22 +1,31 @@
-package cn.cl.web.action;
+package cn.cl.bos.web.action;
 
 
 import cn.cl.crm.domain.Customer;
-import cn.cl.utils.MailUtils;
-import cn.cl.web.action.common.BaseAction;
+import cn.cl.bos.utils.MailUtils;
+import cn.cl.bos.web.action.common.BaseAction;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.cxf.jaxrs.client.WebClient;
 import org.apache.struts2.ServletActionContext;
 import org.apache.struts2.convention.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Scope;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Controller;
 
+import javax.jms.JMSException;
+import javax.jms.MapMessage;
+import javax.jms.Message;
+import javax.jms.Session;
 import javax.ws.rs.core.MediaType;
 import java.io.IOException;
 import java.net.URLEncoder;
 import java.lang.String;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 @ParentPackage("json-default")
@@ -28,27 +37,42 @@ public class CustomerAction extends BaseAction<Customer> {
     @Autowired
     private RedisTemplate<String, String> redisTemplate;
 
+    @Autowired
+    @Qualifier("jmsQueueTemplate")
+    private JmsTemplate jmsTemplate;
 
+    //发送短信
     @Action(value = "customer_sendSms")
     public String sendSms() throws Exception {
         //生成验证码
         String randomCode = RandomStringUtils.randomNumeric(4);
         //将验证码保存到session
         ServletActionContext.getRequest().getSession().setAttribute(model.getTelephone(), randomCode);
-        //目标手机号
-        String telephone = model.getTelephone();
         String code = "#code#=" + randomCode;
-        String CheckCode = URLEncoder.encode(code, "utf-8");
+        final String CheckCode = URLEncoder.encode(code, "utf-8");
         //mobile 接收短信的手机号码
         //tpl_id 短信模板ID
         //tpl_value 变量名和变量值对
         //key 应用APPKEY
         //dtype 返回数据的格式,xml或json，默认json
-
-
 //        java.lang.String result = SmsUtils.getRequest2(telephone, "98465", CheckCode, "331c08249f76c9bbd5922742dc723dd2", "json");
         System.out.println("验证码为：" + randomCode);
 //        System.out.println(result);
+
+        //调用bos_sms发送短信
+        jmsTemplate.send("smsQueue", new MessageCreator() {
+            @Override
+            public Message createMessage(Session session) throws JMSException {
+                MapMessage smsMap = session.createMapMessage();
+                smsMap.setString("mobile", model.getTelephone());                 //mobile 接收短信的手机号码
+                smsMap.setString("tpl_id", "98465");                           //tpl_id 短信模板ID
+                smsMap.setString("tpl_value", CheckCode);                         //tpl_value 变量名和变量值对
+                smsMap.setString("key", "331c08249f76c9bbd5922742dc723dd2");   //key 应用APPKEY
+                smsMap.setString("dtype", "json");                             //dtype 返回数据的格式,xml或json，默认json
+                return smsMap;
+            }
+        });
+
 
 //        if (result.contains("fee")) {
 //            //成功
@@ -107,6 +131,7 @@ public class CustomerAction extends BaseAction<Customer> {
     }
 
     //    校验邮箱是否存在，不存在就绑定，存在就报错
+    //绑定邮箱
     @Action("customer_activeMail")
     public String activeMail() throws IOException {
         //设置写入数据库的字符编码集
@@ -136,4 +161,6 @@ public class CustomerAction extends BaseAction<Customer> {
         }
         return NONE;
     }
+
+
 }

@@ -1,4 +1,4 @@
-package cn.cl.utils;
+package cn.cl.bos.utils;
 
 import java.util.Properties;
 
@@ -37,5 +37,6 @@ public class MailUtils {
 			throw new RuntimeException("邮件发送失败...");
 		}
 	}
+
 
 }

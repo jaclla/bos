@@ -14,11 +14,14 @@
 		http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
 
 	<!-- 扫描 @Server @Controller @Repository -->
-	<context:component-scan base-package="cn.cl.crm.domain"/>
+	<context:component-scan base-package="cn.cl.bos"/>
+
 
 	<!-- 加载properties文件 -->
 	<context:property-placeholder location="classpath:config.properties" />
 
-
+    <!--redis-->
 	<import resource="applicationContext-cache.xml" />
+	<!--mq-->
+	<import resource="applicationContext-mq.xml"/>
 </beans>
