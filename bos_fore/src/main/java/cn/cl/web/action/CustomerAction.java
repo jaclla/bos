@@ -1,7 +1,7 @@
 package cn.cl.web.action;
 
 
-import cn.cl.domain.Customer;
+import cn.cl.crm.domain.Customer;
 import cn.cl.utils.MailUtils;
 import cn.cl.web.action.common.BaseAction;
 import org.apache.commons.lang3.RandomStringUtils;
