@@ -19,6 +19,6 @@
 	<!-- 加载properties文件 -->
 	<context:property-placeholder location="classpath:config.properties" />
 
-	<!--cn.cl.activemq-->
-	<import resource="applicationContext-mq.xml"/>
+	<!--mqconsumer-->
+	<import resource="applicationContext-mq-consumer.xml"/>
 </beans>

@@ -249,3 +249,10 @@
 0:0:0:0:0:0:0:1 - - [05/Sep/2018:20:09:00 +0800] "GET /pages/portal/bug.html?_=1536149340685 HTTP/1.1" 200 861 http-bio-8085-exec-8 1
 0:0:0:0:0:0:0:1 - - [05/Sep/2018:20:09:02 +0800] "GET /pages/take_delivery/promotion_add.html HTTP/1.1" 200 4208 http-bio-8085-exec-9 4
 0:0:0:0:0:0:0:1 - - [05/Sep/2018:20:09:03 +0800] "GET /edit/themes/default/default.png HTTP/1.1" 200 8299 http-bio-8085-exec-10 2
+0:0:0:0:0:0:0:1 - - [05/Sep/2018:20:09:38 +0800] "POST /data/menu.json HTTP/1.1" 200 2999 http-bio-8085-exec-10 2
+0:0:0:0:0:0:0:1 - - [05/Sep/2018:20:09:38 +0800] "POST /data/admin.json HTTP/1.1" 200 366 http-bio-8085-exec-5 2
+0:0:0:0:0:0:0:1 - - [05/Sep/2018:20:09:38 +0800] "GET /pages/portal/gonggao.html?_=1536149378621 HTTP/1.1" 200 574 http-bio-8085-exec-5 1
+0:0:0:0:0:0:0:1 - - [05/Sep/2018:20:09:38 +0800] "GET /pages/portal/daiban.html?_=1536149378633 HTTP/1.1" 200 854 http-bio-8085-exec-5 2
+0:0:0:0:0:0:0:1 - - [05/Sep/2018:20:09:38 +0800] "GET /pages/portal/yujing.html?_=1536149378640 HTTP/1.1" 200 588 http-bio-8085-exec-5 1
+0:0:0:0:0:0:0:1 - - [05/Sep/2018:20:09:38 +0800] "GET /pages/portal/bug.html?_=1536149378647 HTTP/1.1" 200 861 http-bio-8085-exec-7 1
+0:0:0:0:0:0:0:1 - - [05/Sep/2018:20:09:48 +0800] "GET /pages/take_delivery/promotion_add.html HTTP/1.1" 304 - http-bio-8085-exec-8 4
