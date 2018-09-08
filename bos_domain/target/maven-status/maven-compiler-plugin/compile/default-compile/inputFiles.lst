@@ -1,11 +1,12 @@
 /Users/Logic/Documents/git/bos/bos_domain/src/main/java/cn/cl/bos/domain/base/Vehicle.java
-/Users/Logic/Documents/git/bos/bos_domain/src/main/java/cn/cl/bos/domain/base/PageBean.java
 /Users/Logic/Documents/git/bos/bos_domain/src/main/java/cn/cl/bos/domain/base/SubArchive.java
 /Users/Logic/Documents/git/bos/bos_domain/src/main/java/cn/cl/bos/domain/base/Area.java
 /Users/Logic/Documents/git/bos/bos_domain/src/main/java/cn/cl/bos/domain/base/FixedArea.java
 /Users/Logic/Documents/git/bos/bos_domain/src/main/java/cn/cl/bos/domain/base/Archive.java
 /Users/Logic/Documents/git/bos/bos_domain/src/main/java/cn/cl/bos/domain/base/Courier.java
 /Users/Logic/Documents/git/bos/bos_domain/src/main/java/cn/cl/bos/domain/base/SubArea.java
+/Users/Logic/Documents/git/bos/bos_domain/src/main/java/cn/cl/bos/domain/command/PageBean.java
+/Users/Logic/Documents/git/bos/bos_domain/src/main/java/cn/cl/bos/domain/command/Constants.java
 /Users/Logic/Documents/git/bos/bos_domain/src/main/java/cn/cl/bos/domain/base/Standard.java
 /Users/Logic/Documents/git/bos/bos_domain/src/main/java/cn/cl/bos/domain/base/Promotion.java
 /Users/Logic/Documents/git/bos/bos_domain/src/main/java/cn/cl/bos/domain/base/TakeTime.java

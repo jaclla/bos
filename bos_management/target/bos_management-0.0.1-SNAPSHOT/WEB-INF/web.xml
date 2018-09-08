@@ -3,7 +3,16 @@
                xmlns="http://java.sun.com/xml/ns/javaee"
                xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/cn.cl.bos.web-app_2_5.xsd"
                id="WebApp_ID" version="2.5">
-
+    <!--cxf-->
+    <servlet>
+        <servlet-name>CXFService</servlet-name>
+        <servlet-class>org.apache.cxf.transport.servlet.CXFServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CXFService</servlet-name>
+        <url-pattern>/services/*</url-pattern>
+    </servlet-mapping>
     <!-- spring配置文件位置 -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
@@ -20,7 +29,7 @@
     </filter>
     <filter-mapping>
         <filter-name>struts2</filter-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>*.action</url-pattern>
     </filter-mapping>
     <!--欢迎页面-->
     <welcome-file-list>

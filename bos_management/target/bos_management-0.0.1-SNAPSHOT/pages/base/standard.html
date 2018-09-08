@@ -30,7 +30,7 @@
                 pageList: [3,30, 50, 100],
                 pagination: true,
                 toolbar: toolbar,
-                url: "/standard_pageQuery",
+                url: "/standard_pageQuery.action",
                 idField: 'id',
                 columns: columns
             });
@@ -93,7 +93,7 @@
                                 array.push(rows[i].id);
                             }
                             var ids = array.join(",");
-                            window.location.href = "/standard_delete?ids=" + ids;
+                            window.location.href = "/standard_delete.action?ids=" + ids;
                         }
                     });
 
@@ -165,7 +165,7 @@
 
     <div region="center" style="overflow:auto;padding:5px;" border="false">
 
-        <form id="standardForm" action="/standard_save" method="post">
+        <form id="standardForm" action="/standard_save.action" method="post">
             <table class="table-edit" width="80%" align="center">
                 <tr class="title">
                     <td colspan="2">收派标准信息

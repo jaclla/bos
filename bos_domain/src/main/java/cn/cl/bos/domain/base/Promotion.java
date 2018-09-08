@@ -1,5 +1,7 @@
 package cn.cl.bos.domain.base;
 
+import cn.cl.bos.domain.command.Constants;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -60,7 +62,10 @@ public class Promotion implements Serializable {
     }
 
     public String getTitleImg() {
-        return titleImg;
+        if (titleImg.startsWith("http")) {
+            return titleImg;
+        }
+        return Constants.BOS_MANAGEMENT_URL + titleImg;
     }
 
     public void setTitleImg(String titleImg) {
@@ -123,9 +128,7 @@ public class Promotion implements Serializable {
         this.status = status;
     }
 
-    public String getDescription() {
-        return description;
-    }
+    public String getDescription() { return description; }
 
     public void setDescription(String description) {
         this.description = description;

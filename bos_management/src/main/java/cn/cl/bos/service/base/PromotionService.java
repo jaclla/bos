@@ -1,14 +1,11 @@
 package cn.cl.bos.service.base;
 
-import cn.cl.bos.domain.base.PageBean;
+import cn.cl.bos.domain.command.PageBean;
 import cn.cl.bos.domain.base.Promotion;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
-import javax.ws.rs.QueryParam;
+import javax.ws.rs.*;
 
 public interface PromotionService {
     //保存宣传任务
@@ -21,5 +18,10 @@ public interface PromotionService {
     @Path("/pageQuery")
     @GET
     @Produces({"application/xml", "application/json"})
-    PageBean<Promotion> findPageData(@QueryParam("page") int page, @QueryParam("rows") int rows);
+    PageBean<Promotion> findPageData(@QueryParam("page") int page, @QueryParam("rows") int rows);//    根据page和rows返回分页数据
+
+    @Path("/promotion/{id}")
+    @GET
+    @Produces({"application/xml", "application/json"})
+    Promotion findPageData(@PathParam("id") Integer id);
 }

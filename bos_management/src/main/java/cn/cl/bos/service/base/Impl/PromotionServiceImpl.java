@@ -1,7 +1,7 @@
 package cn.cl.bos.service.base.Impl;
 
 import cn.cl.bos.dao.base.PromotionRepository;
-import cn.cl.bos.domain.base.PageBean;
+import cn.cl.bos.domain.command.PageBean;
 import cn.cl.bos.domain.base.Promotion;
 import cn.cl.bos.service.base.PromotionService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,12 +29,17 @@ public class PromotionServiceImpl implements PromotionService {
 
     @Override
     public PageBean<Promotion> findPageData(int page, int rows) {
-        Pageable pageable = new PageRequest(page, rows);
+        Pageable pageable = new PageRequest(page-1, rows);
         Page<Promotion> pageData = promotionRepository.findAll(pageable);
 
         PageBean<Promotion> pageBean = new PageBean<>();
         pageBean.setPageData(pageData.getContent());
         pageBean.setTotalCount(pageData.getTotalElements());
         return pageBean;
+    }
+
+    @Override
+    public Promotion findPageData(Integer id) {
+        return promotionRepository.findOne(id);
     }
 }

@@ -1,4 +1,6 @@
-package cn.cl.bos.domain.base;
+package cn.cl.bos.domain.command;
+
+import cn.cl.bos.domain.base.Promotion;
 
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlSeeAlso;
