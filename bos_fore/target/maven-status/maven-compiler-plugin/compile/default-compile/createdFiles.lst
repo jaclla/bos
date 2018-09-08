@@ -2,3 +2,4 @@ cn/cl/bos/web/action/CustomerAction.class
 cn/cl/bos/web/action/common/BaseAction.class
 cn/cl/bos/utils/MailUtils.class
 cn/cl/bos/web/action/CustomerAction$1.class
+cn/cl/bos/web/action/PromotionAction.class

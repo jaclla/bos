@@ -7,529 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d57eb770-542a-47dc-b56a-1b8e7293ab3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/bos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_fore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos_fore/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_fore/target/bos_fore-0.0.1-SNAPSHOT/WEB-INF/classes/applicationContext-mq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos_fore/target/bos_fore-0.0.1-SNAPSHOT/WEB-INF/classes/applicationContext-mq.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_fore/target/bos_fore-0.0.1-SNAPSHOT/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos_fore/target/bos_fore-0.0.1-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/Archive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/Area.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/Courier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/FixedArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/Promotion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/Standard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/SubArchive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/SubArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/TakeTime.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/Vehicle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/TakeTimeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/TakeTimeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/CourierAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/CourierAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/StandardAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/StandardAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/TakeTimeAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/TakeTimeAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/edit/plugins/filemanager/filemanager.js" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/edit/plugins/filemanager/filemanager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/promotion.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/promotion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/promotion_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/promotion_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/activemq-all-5.2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/activemq-all-5.2.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/asm-3.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/asm-commons-3.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/asm-commons-3.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/asm-tree-3.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/asm-tree-3.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/aspectjrt-1.8.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/aspectjrt-1.8.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/c3p0-0.9.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/commons-lang-2.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/commons-lang3-3.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/commons-lang3-3.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/commons-pool2-2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/commons-pool2-2.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/crm_domain-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/crm_domain-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-core-3.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-core-3.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-bindings-soap-3.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-bindings-soap-3.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-bindings-xml-3.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-bindings-xml-3.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-databinding-jaxb-3.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-databinding-jaxb-3.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-frontend-jaxrs-3.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-frontend-jaxrs-3.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-frontend-jaxws-3.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-frontend-jaxws-3.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-frontend-simple-3.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-frontend-simple-3.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-rs-client-3.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-rs-client-3.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-rs-extension-providers-3.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-rs-extension-providers-3.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-transports-http-3.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-transports-http-3.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-ws-addr-3.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-ws-addr-3.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-ws-policy-3.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-ws-policy-3.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-wsdl-3.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/cxf-rt-wsdl-3.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/fastjson-1.1.37.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/fastjson-1.1.37.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/fastjson-jaxrs-json-provider-0.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/fastjson-jaxrs-json-provider-0.3.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/freemarker-2.3.22.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/freemarker-2.3.22.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/guava-r09.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/guava-r09.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/guice-3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/guice-3.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/guice-multibindings-3.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/guice-multibindings-3.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.0.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.0.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-core-5.0.1.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-core-5.0.1.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-5.0.1.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-5.0.1.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/jandex-1.2.2.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/jandex-1.2.2.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/javassist-3.11.0.GA.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/javassist-3.11.0.GA.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/javax.ws.rs-api-2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/javax.ws.rs-api-2.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-core-2.2.10-b140310.1920.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-core-2.2.10-b140310.1920.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-impl-2.2.10-b140310.1920.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-impl-2.2.10-b140310.1920.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.12.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/jedis-2.6.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/jedis-2.6.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/jettison-1.3.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/jettison-1.3.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/neethi-3.0.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/neethi-3.0.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/ognl-3.0.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/ognl-3.0.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/ojdbc6-11.2.0.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/ojdbc6-11.2.0.1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/pinyin4j-2.5.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/pinyin4j-2.5.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/poi-3.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/poi-3.11.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/poi-ooxml-3.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/poi-ooxml-3.11.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/poi-ooxml-schemas-3.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/poi-ooxml-schemas-3.11.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-all-1.2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-all-1.2.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-core-1.2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-core-1.2.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-guice-1.2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/shiro-guice-1.2.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.12.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.7.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aspects-4.1.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aspects-4.1.7.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.7.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-4.1.7.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-support-4.1.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-support-4.1.7.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-4.1.7.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.11.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.11.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-jpa-1.9.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-jpa-1.9.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-redis-1.4.1.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-redis-1.4.1.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.7.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.7.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jms-4.1.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jms-4.1.7.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-messaging-4.1.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-messaging-4.1.7.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-orm-4.1.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-orm-4.1.7.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-test-4.1.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-test-4.1.7.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.7.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-4.1.7.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/stax-api-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/stax2-api-3.1.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/stax2-api-3.1.4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/struts2-convention-plugin-2.3.24.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/struts2-convention-plugin-2.3.24.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/struts2-core-2.3.24.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/struts2-core-2.3.24.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/struts2-json-plugin-2.3.24.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/struts2-json-plugin-2.3.24.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/struts2-spring-plugin-2.3.24.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/struts2-spring-plugin-2.3.24.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/woodstox-core-asl-4.4.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/woodstox-core-asl-4.4.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/wsdl4j-1.6.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/wsdl4j-1.6.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/xml-resolver-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/xml-resolver-1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/xmlbeans-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/xmlbeans-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/xmlschema-core-2.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/xmlschema-core-2.1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/xwork-core-2.3.24.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/lib/xwork-core-2.3.24.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/css/style_grey.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/css/style_grey.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/admin.json" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/admin.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/archives.json" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/archives.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/area.json" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/area.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/association_customer.json" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/association_customer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/courier.json" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/courier.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/fixed_area.json" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/fixed_area.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/menu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/standard.json" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/standard.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/sub_area.json" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/sub_area.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/take_time.json" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/take_time.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/vehicle.json" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/data/vehicle.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/bg_grey.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/bg_grey.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/bg_login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/bg_login.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/bgx.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/bgx.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/frame.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/frame.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/input_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/input_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/loading.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/menu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/online.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/online.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/reload.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/reload.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/title.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/title.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/user_logout.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/images/user_logout.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/ext/jquery.cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/ext/jquery.cookie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/ext/jquery.portal.js" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/ext/jquery.portal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/ext/portal.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/ext/portal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/jquery.easyui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/jquery.easyui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/locale/easyui-lang-zh_CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/locale/easyui-lang-zh_CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/combo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/combobox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/combobox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/datagrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/datagrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/datebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/datebox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/dialog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/accordion_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/accordion_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/blank.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/blank.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/calendar_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/calendar_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/combo_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/combo_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/datagrid_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/datagrid_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/datebox_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/datebox_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/layout_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/layout_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/linkbutton_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/linkbutton_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/loading.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/menu_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/menu_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/messager_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/messager_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/pagination_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/pagination_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/panel_tools.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/panel_tools.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/searchbox_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/searchbox_button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/slider_handle.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/slider_handle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/spinner_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/spinner_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/tabs_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/tabs_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/tree_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/tree_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/validatebox_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/validatebox_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/validatebox_warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/images/validatebox_warning.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/linkbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/linkbutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/menubutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/menubutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/messager.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/messager.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/pagination.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/progressbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/progressbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/propertygrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/searchbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/splitbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/splitbutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/tree.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/validatebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/validatebox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/black/window.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/combo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/combobox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/combobox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/datagrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/datagrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/datebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/datebox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/dialog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/accordion_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/accordion_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/blank.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/blank.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/calendar_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/calendar_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/combo_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/combo_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/datagrid_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/datagrid_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/datebox_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/datebox_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/layout_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/layout_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/linkbutton_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/linkbutton_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/loading.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/menu_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/menu_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/messager_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/messager_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/pagination_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/pagination_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/panel_tools.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/panel_tools.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/searchbox_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/searchbox_button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/slider_handle.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/slider_handle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/spinner_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/spinner_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/tabs_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/tabs_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/tree_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/tree_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/validatebox_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/validatebox_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/validatebox_warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/images/validatebox_warning.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/linkbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/linkbutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/menubutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/menubutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/messager.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/messager.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/pagination.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/progressbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/progressbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/propertygrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/searchbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/splitbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/splitbutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/tree.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/validatebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/validatebox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/bootstrap/window.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/combo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/combobox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/combobox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/datagrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/datagrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/datebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/datebox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/dialog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/accordion_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/accordion_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/blank.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/blank.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/calendar_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/calendar_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/combo_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/combo_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/datagrid_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/datagrid_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/datebox_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/datebox_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/layout_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/layout_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/linkbutton_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/linkbutton_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/loading.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/menu_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/menu_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/messager_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/messager_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/pagination_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/pagination_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/panel_tools.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/panel_tools.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/searchbox_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/searchbox_button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/slider_handle.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/slider_handle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/spinner_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/spinner_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/tabs_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/tabs_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/tree_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/tree_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/validatebox_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/validatebox_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/validatebox_warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/images/validatebox_warning.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/linkbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/linkbutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/menubutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/menubutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/messager.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/messager.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/pagination.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/progressbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/progressbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/propertygrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/searchbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/splitbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/splitbutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/tree.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/validatebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/validatebox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/default/window.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/combo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/combobox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/combobox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/datagrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/datagrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/datebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/datebox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/dialog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/accordion_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/accordion_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/blank.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/blank.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/calendar_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/calendar_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/combo_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/combo_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/datagrid_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/datagrid_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/datebox_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/datebox_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/layout_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/layout_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/linkbutton_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/linkbutton_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/loading.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/menu_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/menu_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/messager_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/messager_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/pagination_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/pagination_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/panel_tools.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/panel_tools.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/searchbox_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/searchbox_button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/slider_handle.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/slider_handle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/spinner_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/spinner_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/tabs_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/tabs_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/tree_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/tree_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/validatebox_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/validatebox_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/validatebox_warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/images/validatebox_warning.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/linkbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/linkbutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/menubutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/menubutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/messager.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/messager.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/pagination.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/progressbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/progressbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/propertygrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/searchbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/splitbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/splitbutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/tree.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/validatebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/validatebox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/gray/window.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/blank.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/blank.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/cancel.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/cancel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/cut.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/cut.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/edit_add.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/edit_add.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/edit_remove.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/edit_remove.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/filesave.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/filesave.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/help.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/help.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/mini_add.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/mini_add.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/mini_edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/mini_edit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/mini_refresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/mini_refresh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/no.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/no.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/ok.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/ok.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/pencil.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/pencil.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/print.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/print.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/redo.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/redo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/reload.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/reload.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/search.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/sum.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/sum.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/tip.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/tip.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/undo.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/icons/undo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/calendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/combo.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/combo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/combobox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/combobox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/datagrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/datagrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/datebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/datebox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/dialog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/easyui.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/easyui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/accordion_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/accordion_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/blank.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/blank.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/calendar_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/calendar_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/combo_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/combo_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/datagrid_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/datagrid_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/datebox_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/datebox_arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/layout_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/layout_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/linkbutton_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/linkbutton_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/loading.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/menu_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/menu_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/messager_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/messager_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/pagination_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/pagination_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/panel_tools.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/panel_tools.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/searchbox_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/searchbox_button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/slider_handle.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/slider_handle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/spinner_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/spinner_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/tabs_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/tabs_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/tree_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/tree_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/validatebox_arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/validatebox_arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/validatebox_warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/images/validatebox_warning.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/linkbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/linkbutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/menubutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/menubutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/messager.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/messager.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/pagination.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/progressbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/progressbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/propertygrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/propertygrid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/searchbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/searchbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/spinner.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/spinner.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/splitbutton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/splitbutton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/tree.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/validatebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/validatebox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/window.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/easyui/themes/metro/window.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/jquery-1.8.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/jquery-1.8.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ocupload/jquery.ocupload-1.1.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ocupload/jquery.ocupload-1.1.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/1_close.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/1_close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/1_open.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/1_open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/diy/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/line_conn.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/line_conn.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/loading.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/zTreeStandard.gif" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/zTreeStandard.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/zTreeStandard.png" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/img/zTreeStandard.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/jquery.ztree.all-3.5.js" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/jquery.ztree.all-3.5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/zTreeStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/js/ztree/zTreeStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/archives.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/area.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/area.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/courier.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/courier.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/fixed_area.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/fixed_area.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/standard.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/standard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/sub_area.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/sub_area.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/take_time.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/take_time.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/vehicle.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/base/vehicle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/portal/bug.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/portal/bug.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/portal/daiban.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/portal/daiban.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/portal/gonggao.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/portal/gonggao.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/portal/yujing.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/portal/yujing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/menu_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/menu_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/permission.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/permission.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/permission_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/permission_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/role.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/role.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/role_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/role_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/userindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/userindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/userinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/userinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/userlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/system/userlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/change_work_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/change_work_order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/different_waybill.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/different_waybill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/dispatcher.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/dispatcher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/dispatcher_monitor.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/dispatcher_monitor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/promotion.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/promotion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/promotion_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/promotion_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/sign_cancel.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/sign_cancel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/sign_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/sign_input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/waybill.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/waybill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/waybill_import.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/waybill_import.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/waybill_manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/waybill_manage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/waybill_print.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/waybill_print.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/waybill_quick.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/waybill_quick.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/work_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/take_delivery/work_order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/arrive_time.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/arrive_time.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/compose_package.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/compose_package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/in_out_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/in_out_search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/in_storage.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/in_storage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/make_storage.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/make_storage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/out_storage.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/out_storage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/package_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/package_search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/remain_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/pages/transit/remain_search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/validatecode.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/bos_management-0.0.1-SNAPSHOT/validatecode.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/dao/base/AreaRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/dao/base/CourierRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/dao/base/FixedAreaRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/dao/base/StandardRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/dao/base/TakeTimeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/domain/base/Archive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/domain/base/Area.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/domain/base/Courier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/domain/base/FixedArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/domain/base/Standard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/domain/base/SubArchive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/domain/base/SubArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/domain/base/TakeTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/domain/base/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/AreaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/CourierService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/FixedAreaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/AreaServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/CourierServiceImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/CourierServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/FixedAreaServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/StandardSerbiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/TakeTimeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/StandardService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/TakeTimeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/utils/PinYin4jUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/AreaAction$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/AreaAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/CourierAction$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/CourierAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/FixedAreaAction$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/FixedAreaAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/StandardAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/TakeTimeAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/common/BaseAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/tomcat/logs/access_log.2018-09-05" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/tomcat/logs/access_log.2018-09-05" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_sms/target/bos_sms-0.0.1-SNAPSHOT/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos_sms/target/bos_sms-0.0.1-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_sms/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos_sms/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm_domain/target/crm_domain-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/crm_domain/target/crm_domain-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm_management/target/crm_management-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/crm_management/target/crm_management-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm_management/target/crm_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/crm/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm_management/target/crm_management-0.0.1-SNAPSHOT/WEB-INF/classes/cn/cl/crm/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm_management/target/crm_management-0.0.1-SNAPSHOT/WEB-INF/lib/crm_domain-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/crm_management/target/crm_management-0.0.1-SNAPSHOT/WEB-INF/lib/crm_domain-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm_management/target/crm_management-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm_management/target/crm_management-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm_management/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/crm_management/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/base/Promotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/base/Promotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/Impl/PromotionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/Impl/PromotionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/PromotionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/PromotionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/area.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/area.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/courier.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/courier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/fixed_area.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/fixed_area.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/standard.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/standard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/take_time.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/take_time.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/tomcat/logs/access_log.2018-09-07" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/tomcat/logs/access_log.2018-09-07" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/crm_domain/target/" />
     <ignored path="$PROJECT_DIR$/crm_management/target/" />
@@ -609,7 +98,7 @@
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.14" value="4" />
           <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="4" />
@@ -618,7 +107,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -628,66 +117,159 @@
           <entry key="T_CUSTOMER" value="39" />
           <entry key="T_FIXEDAREA_COURIER" value="1" />
           <entry key="T_FIXED_AREA" value="4" />
-          <entry key="T_PROMOTION" value="4" />
+          <entry key="T_PROMOTION" value="5" />
           <entry key="T_TAKE_TIME" value="3" />
           <entry key="class" value="4" />
-          <entry key="html" value="34" />
-          <entry key="java" value="242" />
+          <entry key="html" value="42" />
+          <entry key="java" value="257" />
           <entry key="js" value="5" />
           <entry key="json" value="1" />
           <entry key="pom" value="5" />
           <entry key="project" value="1" />
           <entry key="properties" value="23" />
           <entry key="sql" value="2" />
-          <entry key="xml" value="186" />
+          <entry key="xml" value="194" />
           <entry key="xsd" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="Database Element" value="52" />
+          <entry key="Database Element" value="53" />
           <entry key="Eclipse" value="1" />
-          <entry key="HTML" value="34" />
-          <entry key="JAVA" value="242" />
+          <entry key="HTML" value="42" />
+          <entry key="JAVA" value="257" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="5" />
           <entry key="Properties" value="23" />
           <entry key="Scratch" value="2" />
-          <entry key="XML" value="192" />
+          <entry key="XML" value="200" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="204" />
           <entry key="dummy" value="2" />
-          <entry key="html" value="2557" />
-          <entry key="java" value="6982" />
+          <entry key="html" value="2706" />
+          <entry key="java" value="7615" />
           <entry key="js" value="4" />
           <entry key="properties" value="12" />
-          <entry key="xml" value="662" />
+          <entry key="xml" value="915" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2557" />
-          <entry key="JAVA" value="6982" />
+          <entry key="HTML" value="2706" />
+          <entry key="JAVA" value="7615" />
           <entry key="JavaScript" value="4" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="12" />
           <entry key="Scratch" value="204" />
-          <entry key="XML" value="662" />
+          <entry key="XML" value="915" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bos_fore/src/main/webapp/signup.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/web/action/PromotionAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2570">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="180">
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="135" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/area.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1378">
+              <caret line="245" column="68" selection-start-line="245" selection-start-column="68" selection-end-line="245" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/courier.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-428">
+              <caret line="347" column="28" selection-start-line="347" selection-start-column="28" selection-end-line="347" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/fixed_area.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-231">
+              <caret line="579" column="86" selection-start-line="579" selection-start-column="86" selection-end-line="579" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/sub_area.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="286" column="20" lean-forward="true" selection-start-line="286" selection-start-column="20" selection-end-line="286" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/take_time.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/PromotionService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/Impl/PromotionServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/PromotionAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="72" column="23" lean-forward="true" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#setTitleImgFileFileName#0;class#PromotionAction#0" />
+                <element signature="method#setTitleImgFileContentType#0;class#PromotionAction#0" />
+                <element signature="method#save#0;class#PromotionAction#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="69" column="8" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -698,8 +280,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -731,16 +313,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bos_management/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/crm_management/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/bos_fore/src/main/java/domain/Customer.java" />
-        <option value="$PROJECT_DIR$/crm_domain/src/main/java/cn/cl/crm/domain/Customer2.java" />
-        <option value="$PROJECT_DIR$/bos_fore/src/main/java/web/action/CustomerAction.java" />
-        <option value="$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/utils/SDKSSMUtils.java" />
-        <option value="$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/utils/SmsUtils.java" />
-        <option value="$PROJECT_DIR$/crm_management/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/crm_management/src/main/resources/applicationContext-dataSource.xml" />
         <option value="$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/web/action/common/BaseAction.java" />
         <option value="$PROJECT_DIR$/bos_fore/src/main/webapp/signup.html" />
         <option value="$PROJECT_DIR$/crm_management/src/main/java/cn/cl/crm/text/text.java" />
@@ -764,15 +336,11 @@
         <option value="$PROJECT_DIR$/bos_fore/src/main/resources/applicationContext-mq.xml" />
         <option value="$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/web/action/CustomerAction.java" />
         <option value="$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/utils/MailUtils.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/take_delivery/Promotion.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/ImageAction.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/dao/base/PromotionRepository.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/ImageAction.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/edit/plugins/filemanager/filemanager.js" />
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/promotion_add.html" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/PromotionService.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/Impl/PromotionServiceImpl.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/promotion.html" />
         <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/Archive.java" />
         <option value="$PROJECT_DIR$/bos_management/pom.xml" />
@@ -782,6 +350,20 @@
         <option value="$PROJECT_DIR$/bos_fore/pom.xml" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/AreaAction.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/StandardAction.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/ImageAction.java" />
+        <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/base/Promotion.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/PromotionService.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/Impl/PromotionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-webService.xml" />
+        <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/base/PageBean.java" />
+        <option value="$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/web/action/PromotionAction.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/area.html" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/courier.html" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/fixed_area.html" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/standard.html" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/take_time.html" />
       </list>
     </option>
   </component>
@@ -816,7 +398,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="807" />
@@ -827,29 +409,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_fore" type="462c0819:PsiDirectoryNode" />
+              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_fore" type="462c0819:PsiDirectoryNode" />
+              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_fore" type="462c0819:PsiDirectoryNode" />
+              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_fore" type="462c0819:PsiDirectoryNode" />
+              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -857,6 +439,19 @@
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -867,9 +462,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="ToolWindowProblems.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536318375148" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536375425543" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -879,12 +475,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain" />
-      <recent name="$PROJECT_DIR$/bos_domain" />
-      <recent name="$PROJECT_DIR$/bos_management/src/main/webapp/edit" />
-      <recent name="$PROJECT_DIR$/bos_fore/src/main/resources" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bos_sms/src/main/resources" />
+      <recent name="$PROJECT_DIR$/bos_fore/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/bos_fore/src/main/java/web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.cl.domain" />
@@ -893,10 +487,12 @@
       <recent name="web.action.common" />
       <recent name="cn.cl.bos.web.action.base" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bos_sms/src/main/resources" />
-      <recent name="$PROJECT_DIR$/bos_fore/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/bos_fore/src/main/java/web" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bos_management/src/main/resources" />
+      <recent name="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain" />
+      <recent name="$PROJECT_DIR$/bos_domain" />
+      <recent name="$PROJECT_DIR$/bos_management/src/main/webapp/edit" />
+      <recent name="$PROJECT_DIR$/bos_fore/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -940,7 +536,22 @@
     <configuration name="bos_management [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="-Xms256M -Xmx512M -XX:PermSize=256m -XX:MaxPermSize=512m" />
+          </MavenRunnerSettings>
+        </option>
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
             <option name="profiles">
@@ -995,8 +606,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Maven.bos_management [tomcat7:run]" />
-        <item itemvalue="Maven.common_parent [tomcat7:run]" />
         <item itemvalue="Maven.bos_fore [tomcat:run]" />
+        <item itemvalue="Maven.common_parent [tomcat7:run]" />
       </list>
     </recent_temporary>
   </component>
@@ -1042,6 +653,7 @@
       <workItem from="1536302329297" duration="9840000" />
       <workItem from="1536314609032" duration="223000" />
       <workItem from="1536314835525" duration="3687000" />
+      <workItem from="1536323855963" duration="9087000" />
     </task>
     <servers />
   </component>
@@ -1066,13 +678,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118265000" />
+    <option name="totallyTimeSpent" value="127352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49354005" visible="true" weight="0.3118741" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49354005" visible="true" weight="0.24320458" />
       <window_info id="Structure" order="1" sideWeight="0.50645995" side_tool="true" weight="0.30329043" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1083,8 +695,8 @@
       <window_info id="JRebel" order="8" sideWeight="0.5081967" side_tool="true" weight="0.28612304" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.23916084" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33146852" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.4055944" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.64895105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1093,13 +705,13 @@
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.32867134" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
-      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Problems" order="12" show_stripe_button="false" weight="0.32867134" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32867134" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.32867134" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.32867134" />
       <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.50143063" side_tool="true" weight="0.35524476" />
-      <window_info anchor="bottom" id="JRebel Executor" order="18" sideWeight="0.49713877" weight="0.33146852" />
+      <window_info anchor="bottom" id="JRebel Executor" order="18" sideWeight="0.49713877" visible="true" weight="0.33286715" />
       <window_info anchor="bottom" id="JRebel Console" order="19" sideWeight="0.5028612" side_tool="true" weight="0.4027972" />
       <window_info anchor="bottom" id="Application Servers" order="20" weight="0.32867134" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1163,57 +775,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://8b88a5dd-8ecc-4a08-b858-693a59915ee7/schema/CL2/table/T_CUSTOMER">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/utils/MailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_sms/src/main/java/cn/cl/bos/utils/SmsUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="59" column="26" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/Courier.java" />
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/edit/kindeditor-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_fore/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/domain/base/FixedArea.java" />
-    <entry file="file://$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/web/action/common/BaseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crm_management/src/main/java/cn/cl/crm/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1232,13 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/web/action/CustomerAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1289,9 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1306,89 +857,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="76" column="27" lean-forward="true" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/standard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="167" column="43" lean-forward="true" selection-start-line="167" selection-start-column="43" selection-end-line="167" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/take_time.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/PromotionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/Impl/PromotionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/fixed_area.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5058">
-          <caret line="467" lean-forward="true" selection-start-line="467" selection-end-line="467" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/sub_area.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="188" column="15" lean-forward="true" selection-start-line="188" selection-start-column="15" selection-end-line="188" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/courier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4262" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/Customer.java" />
     <entry file="file://$PROJECT_DIR$/common_parent/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="286" column="39" selection-start-line="286" selection-start-column="39" selection-end-line="286" selection-end-column="39" />
         </state>
       </provider>
-    </entry>
-    <entry file="das://9346ada7-2ff6-4fbe-b7ce-8a8855dbaabd/schema/CL/table/T_PROMOTION">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/promotion_add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="67" column="24" lean-forward="true" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#td#1;n#tr#4;n#table#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1396,17 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/ImageAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#manage#0;class#ImageAction#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1421,22 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2223">
           <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/PromotionAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setTitleImgFileFileName#0;class#PromotionAction#0" />
-            <element signature="method#setTitleImgFileContentType#0;class#PromotionAction#0" />
-            <element signature="method#save#0;class#PromotionAction#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1444,17 +901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1466,15 +912,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crm_domain/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bos_fore/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
@@ -1483,6 +928,7 @@
           </folding>
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/base/Area.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1498,14 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos_domain/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/StandardAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1518,15 +956,190 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bos_fore/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        <state relative-caret-position="431">
+          <caret line="94" column="46" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bos_fore/src/main/webapp/signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2570">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="209">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/web/action/CustomerAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/web/action/common/BaseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="56" selection-start-line="56" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/base/Promotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/ImageAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#manage#0;class#ImageAction#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9346ada7-2ff6-4fbe-b7ce-8a8855dbaabd/schema/CL/table/T_PROMOTION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/PromotionAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="72" column="23" lean-forward="true" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setTitleImgFileFileName#0;class#PromotionAction#0" />
+            <element signature="method#setTitleImgFileContentType#0;class#PromotionAction#0" />
+            <element signature="method#save#0;class#PromotionAction#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/base/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-webService.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="69" column="8" lean-forward="true" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/PromotionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/Impl/PromotionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_domain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/archives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="138" column="14" lean-forward="true" selection-start-line="138" selection-start-column="14" selection-end-line="138" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/web/action/PromotionAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="135" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/area.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1378">
+          <caret line="245" column="68" selection-start-line="245" selection-start-column="68" selection-end-line="245" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/courier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-428">
+          <caret line="347" column="28" selection-start-line="347" selection-start-column="28" selection-end-line="347" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/standard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="213" column="7" lean-forward="true" selection-start-line="213" selection-start-column="7" selection-end-line="213" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/fixed_area.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="579" column="86" selection-start-line="579" selection-start-column="86" selection-end-line="579" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/sub_area.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="286" column="20" lean-forward="true" selection-start-line="286" selection-start-column="20" selection-end-line="286" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/take_time.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
         </state>
       </provider>
     </entry>

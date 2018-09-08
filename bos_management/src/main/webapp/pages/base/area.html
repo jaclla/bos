@@ -159,7 +159,7 @@
                 pageList: [30, 50, 100],
                 pagination: true,
                 toolbar: toolbar,
-                url: "/area_pageQuery",
+                url: "/area_pageQuery.action",
                 idField: 'id',
                 columns: columns,
                 onDblClickRow: doDblClickRow
@@ -178,7 +178,7 @@
             //一键上传按钮
             $("#button-import").upload({
                 name: "file",
-                action: "/area_batchImport",
+                action: "/area_batchImport.action",
                 onSelect: function () {
                     //文件选择后取消自动提交
                     this.autoSubmit = false;
@@ -243,7 +243,7 @@
     </div>
 
     <div region="center" style="overflow:auto;padding:5px;" border="false">
-        <form id="area_form" method="post" action="/area_save">
+        <form id="area_form" method="post" action="/area_save.action">
             <table class="table-edit" width="80%" align="center">
                 <tr class="title">
                     <td colspan="2">区域信息</td>

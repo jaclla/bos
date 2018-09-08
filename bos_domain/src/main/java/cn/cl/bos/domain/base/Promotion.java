@@ -8,12 +8,14 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * @description:促销信息实体类
  */
 @Entity
 @Table(name = "T_PROMOTION")
+@XmlRootElement(name = "Promotion")
 public class Promotion implements Serializable {
 
     @Id
