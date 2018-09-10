@@ -24,4 +24,5 @@
 	<import resource="applicationContext-cache.xml" />
 	<!--mq-->
 	<import resource="applicationContext-mq.xml"/>
+	<import resource="applicationContext-mq-consumer.xml"/>
 </beans>

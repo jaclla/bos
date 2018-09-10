@@ -31,6 +31,8 @@ import java.util.HashMap;
 @SuppressAjWarnings("all")
 public class PromotionAction extends BaseAction<Promotion> {
 
+    public static boolean CREATE_HTML = false;
+
     @Action(value = "promotion_pageQuery", results = @Result(name = SUCCESS, type = "json"))
     public String pageQuery() {
 
@@ -64,6 +66,8 @@ public class PromotionAction extends BaseAction<Promotion> {
             template.process(parameterMap, new OutputStreamWriter(new FileOutputStream(htmlFile), "utf-8"));
 
         }
+        CREATE_HTML = false;
+
 //            存在，返回
         ServletActionContext.getResponse().setContentType("text/html;charset=utf-8");
         FileUtils.copyFile(htmlFile, ServletActionContext.getResponse().getOutputStream());
