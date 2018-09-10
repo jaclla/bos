@@ -16,8 +16,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.opensymphony.xwork2.Action.SUCCESS;
-
 
 @ParentPackage("json-default")
 @Actions

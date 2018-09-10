@@ -1,4 +1,4 @@
-package cn.cl.bos.service.base;
+package cn.cl.bos.service.take_delivery.base;
 
 import cn.cl.bos.domain.command.PageBean;
 import cn.cl.bos.domain.base.Promotion;
@@ -6,6 +6,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 import javax.ws.rs.*;
+import java.util.Date;
 
 public interface PromotionService {
     //保存宣传任务
@@ -24,4 +25,6 @@ public interface PromotionService {
     @GET
     @Produces({"application/xml", "application/json"})
     Promotion findPageData(@PathParam("id") Integer id);
+
+    void updateStatus(Date date);
 }

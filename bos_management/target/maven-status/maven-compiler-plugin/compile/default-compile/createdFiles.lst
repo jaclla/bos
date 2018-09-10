@@ -5,7 +5,6 @@ cn/cl/bos/service/base/Impl/CourierServiceImpl$1.class
 cn/cl/bos/service/base/AreaService.class
 cn/cl/bos/web/action/base/common/BaseAction.class
 cn/cl/bos/service/base/Impl/AreaServiceImpl.class
-cn/cl/bos/service/base/Impl/PromotionServiceImpl.class
 cn/cl/bos/web/action/base/FixedAreaAction.class
 cn/cl/bos/service/base/CourierService.class
 cn/cl/bos/utils/PinYin4jUtils.class
@@ -15,7 +14,6 @@ cn/cl/bos/dao/base/CourierRepository.class
 cn/cl/bos/web/action/base/StandardAction.class
 cn/cl/bos/web/action/base/AreaAction.class
 cn/cl/bos/web/action/base/AreaAction$1.class
-cn/cl/bos/service/base/PromotionService.class
 cn/cl/bos/service/base/Impl/StandardSerbiceImpl.class
 cn/cl/bos/service/base/Impl/TakeTimeServiceImpl.class
 cn/cl/bos/web/action/base/take_delivery/ImageAction.class

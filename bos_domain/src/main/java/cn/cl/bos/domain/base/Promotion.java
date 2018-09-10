@@ -128,7 +128,12 @@ public class Promotion implements Serializable {
         this.status = status;
     }
 
-    public String getDescription() { return description; }
+    public String getDescription() {
+        if (description.contains(Constants.BOS_MANAGEMENT_URL)||description==null) {
+            return description;
+        }
+        return description.replace("/upload/", Constants.BOS_MANAGEMENT_URL + "/upload/");
+    }
 
     public void setDescription(String description) {
         this.description = description;

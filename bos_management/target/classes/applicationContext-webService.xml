@@ -16,7 +16,7 @@
 		http://cxf.apache.org/schemas/jaxrs.xsd">
     <jaxrs:server id="promotionService" address="/promotionService">
         <jaxrs:serviceBeans>
-            <bean class="cn.cl.bos.service.base.Impl.PromotionServiceImpl"/>
+            <bean class="cn.cl.bos.service.take_delivery.Impl.PromotionServiceImpl"/>
         </jaxrs:serviceBeans>
         <jaxrs:inInterceptors>
             <bean class="org.apache.cxf.interceptor.LoggingInInterceptor"/>
@@ -26,4 +26,15 @@
         </jaxrs:outInterceptors>
     </jaxrs:server>
 
+    <!--<jaxrs:server id="orderService" address="/orderService">-->
+        <!--<jaxrs:serviceBeans>-->
+            <!--<bean class="cn.cl.bos.service.take_delivery.Impl.OrderServiceImpl" />-->
+        <!--</jaxrs:serviceBeans>-->
+        <!--<jaxrs:inInterceptors>-->
+            <!--<bean class="org.apache.cxf.interceptor.LoggingInInterceptor"></bean>-->
+        <!--</jaxrs:inInterceptors>-->
+        <!--<jaxrs:outInterceptors>-->
+            <!--<bean class="org.apache.cxf.interceptor.LoggingOutInterceptor"></bean>-->
+        <!--</jaxrs:outInterceptors>-->
+    <!--</jaxrs:server>-->
 </beans>

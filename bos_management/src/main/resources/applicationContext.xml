@@ -67,4 +67,6 @@
     <!--整合springDataJpa-->
     <jpa:repositories base-package="cn.cl.bos.dao"/>
     <import resource="applicationContext-webService.xml"/>
+    <import resource="applicationContext-quartz.xml"/>
+    <import resource="applicationContext-mq.xml"/>
 </beans>

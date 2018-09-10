@@ -1,7 +1,7 @@
 package cn.cl.bos.web.action.base.take_delivery;
 
 import cn.cl.bos.domain.base.Promotion;
-import cn.cl.bos.service.base.PromotionService;
+import cn.cl.bos.service.take_delivery.base.PromotionService;
 import cn.cl.bos.web.action.base.common.BaseAction;
 import org.apache.commons.io.FileUtils;
 import org.apache.struts2.ServletActionContext;
