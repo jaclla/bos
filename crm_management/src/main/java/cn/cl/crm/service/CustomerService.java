@@ -1,6 +1,6 @@
 package cn.cl.crm.service;
 
-import cn.cl.crm.domain.Customer;
+import cn.cl.crm.domain.base.Customer;
 
 import javax.ws.rs.*;
 import java.util.List;
@@ -41,4 +41,9 @@ public interface CustomerService {
     @Path("/customer/updatetype/{telephone}")
     @PUT
     public void updateType(@PathParam("telephone") String telephone);
+
+    @Path("/customer/login")
+    @GET
+    @Consumes({"application/xml", "application/json"})
+    public Customer login(@QueryParam("telephone") String telephone,@QueryParam("password") String password);
 }

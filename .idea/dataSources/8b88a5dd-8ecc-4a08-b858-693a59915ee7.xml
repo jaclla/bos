@@ -6,9 +6,9 @@
     </root>
     <schema id="2" parent="1" name="CL2">
       <ObjectId>53</ObjectId>
-      <IntrospectionTimestamp>2018-08-29.22:37:30</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2018-09-11.00:23:04</IntrospectionTimestamp>
       <CreatedTimestamp>2018-08-29.22:37:20</CreatedTimestamp>
-      <ModifiedTimestamp>2018-08-29.22:37:22</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-09-11.00:22:53</ModifiedTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -76,7 +76,7 @@
     <sequence id="23" parent="2" name="HIBERNATE_SEQUENCE">
       <ObjectId>20360</ObjectId>
       <CreatedTimestamp>2018-08-29.22:37:22</CreatedTimestamp>
-      <ModifiedTimestamp>2018-08-29.22:37:22</ModifiedTimestamp>
+      <ModifiedTimestamp>2018-09-11.00:22:53</ModifiedTimestamp>
       <SequenceIdentity>1</SequenceIdentity>
     </sequence>
     <table id="24" parent="2" name="T_CUSTOMER">

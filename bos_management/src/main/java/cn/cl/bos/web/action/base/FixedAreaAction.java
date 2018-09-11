@@ -3,7 +3,7 @@ package cn.cl.bos.web.action.base;
 import cn.cl.bos.domain.base.FixedArea;
 import cn.cl.bos.service.base.FixedAreaService;
 import cn.cl.bos.web.action.base.common.BaseAction;
-import cn.cl.crm.domain.Customer;
+import cn.cl.crm.domain.base.Customer;
 import com.opensymphony.xwork2.ActionContext;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.cxf.jaxrs.client.WebClient;

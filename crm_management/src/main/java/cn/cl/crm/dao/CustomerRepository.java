@@ -1,6 +1,6 @@
 package cn.cl.crm.dao;
 
-import cn.cl.crm.domain.Customer;
+import cn.cl.crm.domain.base.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -25,4 +25,6 @@ public interface CustomerRepository extends JpaRepository<Customer, Integer> {
     @Query("update Customer set type = 1 where telephone=?1")
     @Modifying
     void updateType(String telephone);
+
+    Customer findByTelephoneAndPassword(String telephone, String password);
 }

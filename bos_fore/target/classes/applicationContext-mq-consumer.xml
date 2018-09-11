@@ -20,7 +20,7 @@
         http://activemq.apache.org/schema/core/activemq-core-5.8.0.xsd ">
 	
 	<!-- 扫描包 -->
-	<context:component-scan base-package="cn.cl.bos.mq" />
+	<context:component-scan base-package="cn.cl.bos" />
 	
 	<!-- ActiveMQ 连接工厂 -->
     <!-- 真正可以产生Connection的ConnectionFactory，由对应的 JMS服务厂商提供-->

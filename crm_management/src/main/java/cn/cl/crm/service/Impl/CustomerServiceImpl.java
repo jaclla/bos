@@ -1,6 +1,6 @@
 package cn.cl.crm.service.Impl;
 
-import cn.cl.crm.domain.Customer;
+import cn.cl.crm.domain.base.Customer;
 import cn.cl.crm.dao.CustomerRepository;
 import cn.cl.crm.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -57,6 +57,11 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public void updateType(String telephone) {
         customerRepository.updateType(telephone);
+    }
+
+    @Override
+    public Customer login(String telephone, String password) {
+        return customerRepository.findByTelephoneAndPassword(telephone,password);
     }
 
 }

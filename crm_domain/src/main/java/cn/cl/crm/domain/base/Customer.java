@@ -1,4 +1,4 @@
-package cn.cl.crm.domain;
+package cn.cl.crm.domain.base;
 
 import java.util.Date;
 

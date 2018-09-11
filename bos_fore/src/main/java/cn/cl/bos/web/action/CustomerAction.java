@@ -1,7 +1,8 @@
 package cn.cl.bos.web.action;
 
 
-import cn.cl.crm.domain.Customer;
+import cn.cl.bos.domain.constant.Constants;
+import cn.cl.crm.domain.base.Customer;
 import cn.cl.bos.utils.MailUtils;
 import cn.cl.bos.web.action.common.BaseAction;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -21,11 +22,10 @@ import javax.jms.MapMessage;
 import javax.jms.Message;
 import javax.jms.Session;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 import java.io.IOException;
 import java.net.URLEncoder;
 import java.lang.String;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 @ParentPackage("json-default")
@@ -163,4 +163,20 @@ public class CustomerAction extends BaseAction<Customer> {
     }
 
 
+    //客户登陆
+    @Action(value = "customer_login", results = {@Result(name = LOGIN, type = "redirect", location = "login.html"), @Result(name = SUCCESS, type = "redirect", location = "index.html#/myhome")})
+    public String login() {
+
+        //调用WebService登陆
+        Customer customer = WebClient.create(Constants.CRM_MANAGEMENT_URL+"/services/customerService/customer/login?telephone=" + model.getTelephone() + "&password=" + model.getPassword()).type(MediaType.APPLICATION_JSON)
+                .get(Customer.class);
+        if (customer==null){
+//            登录失败
+            return LOGIN;
+        }else {
+//            登陆成功
+            ServletActionContext.getRequest().getSession().setAttribute("customer", customer);
+            return SUCCESS;
+        }
+    }
 }
