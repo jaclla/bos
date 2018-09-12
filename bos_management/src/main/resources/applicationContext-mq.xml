@@ -53,13 +53,13 @@
         <property name="pubSubDomain" value="false" />
     </bean>
 
-    <!-- 定义JmsTemplate的Topic类型 -->
-    <bean id="jmsTopicTemplate" class="org.springframework.jms.core.JmsTemplate">
-         <!-- 这个connectionFactory对应的是我们定义的Spring提供的那个ConnectionFactory对象 -->  
-        <constructor-arg ref="mqConnectionFactory" />
-        <!-- pub/sub模型（发布/订阅） -->
-        <property name="pubSubDomain" value="true" />
-    </bean>
+    <!--&lt;!&ndash; 定义JmsTemplate的Topic类型 &ndash;&gt;-->
+    <!--<bean id="jmsTopicTemplate" class="org.springframework.jms.core.JmsTemplate">-->
+         <!--&lt;!&ndash; 这个connectionFactory对应的是我们定义的Spring提供的那个ConnectionFactory对象 &ndash;&gt;  -->
+        <!--<constructor-arg ref="mqConnectionFactory" />-->
+        <!--&lt;!&ndash; pub/sub模型（发布/订阅） &ndash;&gt;-->
+        <!--<property name="pubSubDomain" value="true" />-->
+    <!--</bean>-->
 
     <!--Spring JmsTemplate 的消息生产者 end-->
     

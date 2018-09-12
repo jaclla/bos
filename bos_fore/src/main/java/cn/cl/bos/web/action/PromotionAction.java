@@ -1,8 +1,8 @@
 package cn.cl.bos.web.action;
 
-import cn.cl.bos.domain.command.Constants;
 import cn.cl.bos.domain.command.PageBean;
 import cn.cl.bos.domain.base.Promotion;
+import cn.cl.bos.domain.constant.Constants;
 import cn.cl.bos.web.action.common.BaseAction;
 import com.opensymphony.xwork2.ActionContext;
 import freemarker.template.Configuration;

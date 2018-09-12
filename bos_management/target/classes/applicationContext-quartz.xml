@@ -24,7 +24,7 @@
     <bean id="promotionTrigger"
           class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
         <property name="jobDetail" ref="promotionJob" />
-        <property name="cronExpression" value="*/5 * * ? * *"></property>
+        <property name="cronExpression" value="* * 12 ? * 4"></property>
     </bean>
 
     <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">

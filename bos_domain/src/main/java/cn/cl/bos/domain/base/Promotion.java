@@ -1,6 +1,6 @@
 package cn.cl.bos.domain.base;
 
-import cn.cl.bos.domain.command.Constants;
+import cn.cl.bos.domain.constant.Constants;
 
 import java.io.Serializable;
 import java.util.Date;
