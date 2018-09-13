@@ -1,12 +1,13 @@
 package cn.cl.bos.service.take_delivery.base;
 
 import cn.cl.bos.domain.take_delivery.Order;
+import org.springframework.stereotype.Service;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
 
+@Service
 public interface OrderService {
 
 
@@ -15,4 +16,5 @@ public interface OrderService {
     @Consumes({"application/xml", "application/json"})
     public void saveOrder(Order order);
 
+    Order findByOrderNum(String orderNum);
 }

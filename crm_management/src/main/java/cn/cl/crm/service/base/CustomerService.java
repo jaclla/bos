@@ -1,4 +1,4 @@
-package cn.cl.crm.service;
+package cn.cl.crm.service.base;
 
 import cn.cl.crm.domain.base.Customer;
 

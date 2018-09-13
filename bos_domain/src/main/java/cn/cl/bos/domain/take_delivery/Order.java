@@ -3,6 +3,7 @@ package cn.cl.bos.domain.take_delivery;
 
 import cn.cl.bos.domain.base.Area;
 import cn.cl.bos.domain.base.Courier;
+import org.apache.struts2.json.annotations.JSON;
 
 import java.util.Date;
 import java.util.HashSet;
@@ -262,10 +263,10 @@ public class Order {
 		this.wayBill = wayBill;
 	}
 
+	@JSON(serialize = false)
 	public Set<WorkBill> getWorkBills() {
 		return workBills;
 	}
-
 	public void setWorkBills(Set<WorkBill> workBills) {
 		this.workBills = workBills;
 	}

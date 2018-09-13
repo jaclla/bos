@@ -34,9 +34,9 @@ public class OrderAction extends BaseAction<Order> {
         this.recAreaInfo = recAreaInfo;
     }
 
-    //客户登陆
-    @Action(value = "order_add")
-    public void add() {
+    //下订单
+    @Action(value = "order_add",results = @Result(name = SUCCESS,type = "redirect",location ="index.html" ) )
+    public String add() {
         Area sendArea = new Area();
         String[] sendAreaData = sendAreaInfo.split("/");
         sendArea.setProvince(sendAreaData[0]);
@@ -55,7 +55,8 @@ public class OrderAction extends BaseAction<Order> {
         Customer customer = (Customer) ServletActionContext.getRequest().getSession().getAttribute("customer");
         model.setCustomer_id(customer.getId());
 
-        WebClient.create(Constants.BOS_MANAGEMENT_URL+"/services/orderService/order").type(MediaType.APPLICATION_JSON)
+        WebClient.create(Constants.BOS_MANAGEMENT_HOST+"/services/orderService/order").type(MediaType.APPLICATION_JSON)
                 .post(model);
+        return SUCCESS;
     }
 }

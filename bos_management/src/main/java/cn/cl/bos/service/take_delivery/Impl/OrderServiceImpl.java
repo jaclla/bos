@@ -16,7 +16,6 @@ import org.apache.cxf.jaxrs.client.WebClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jms.core.JmsTemplate;
-import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -50,7 +49,7 @@ public class OrderServiceImpl implements OrderService {
         //自动分单
 
 //        逻辑一：基于crm地址库获得定区，匹配快递员
-        String fixedAreaId = WebClient.create(Constants.CRM_MANAGEMENT_HOST + "/services/customerService/customer/findFixedAreaIdByAddress?address=" + order.getSendAddress())
+        String fixedAreaId = WebClient.create(Constants.CRM_MANAGEMENT_URL + "/services/customerService/customer/findFixedAreaIdByAddress?address=" + order.getSendAddress())
                 .accept(MediaType.APPLICATION_JSON).get(String.class);
 //        通过寄件人寄件地址获得定区id
         if (fixedAreaId != null) {
@@ -102,6 +101,11 @@ public class OrderServiceImpl implements OrderService {
         order.setOrderType("1");
         orderRepository.save(order);
 
+    }
+
+    @Override
+    public Order findByOrderNum(String orderNum) {
+        return orderRepository.findByOrderNum(orderNum);
     }
 
     private void generateWorkBill(final Order order) {

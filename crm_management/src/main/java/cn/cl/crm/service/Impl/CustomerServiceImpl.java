@@ -2,7 +2,7 @@ package cn.cl.crm.service.Impl;
 
 import cn.cl.crm.domain.base.Customer;
 import cn.cl.crm.dao.CustomerRepository;
-import cn.cl.crm.service.CustomerService;
+import cn.cl.crm.service.base.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

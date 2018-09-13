@@ -4,10 +4,12 @@ import cn.cl.bos.domain.command.PageBean;
 import cn.cl.bos.domain.base.Promotion;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 import javax.ws.rs.*;
 import java.util.Date;
 
+@Service
 public interface PromotionService {
     //保存宣传任务
     void save(Promotion model);
