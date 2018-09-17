@@ -17,6 +17,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
+import org.springframework.stereotype.Controller;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
@@ -31,6 +32,7 @@ import java.util.List;
 @ParentPackage("json-default")
 @Namespace("/")
 @Actions
+@Controller
 @Scope("prototype")
 public class AreaAction extends BaseAction<Area> {
 //    //模型驱动

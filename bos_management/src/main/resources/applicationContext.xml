@@ -63,11 +63,12 @@
         <property name="entityManagerFactory" ref="entityManagerFactory"/>
     </bean>
     <!--注解管理事物-->
-    <tx:annotation-driven transaction-manager="transactionManager"/>
+    <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"/>
     <!--整合springDataJpa-->
     <jpa:repositories base-package="cn.cl.bos.dao"/>
     <import resource="applicationContext-webService.xml"/>
     <import resource="applicationContext-quartz.xml"/>
     <import resource="applicationContext-mq.xml"/>
     <import resource="applicationContext-elasticserach.xml"/>
+    <import resource="applicationContext-shiro.xml"/>
 </beans>

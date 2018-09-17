@@ -3,6 +3,8 @@ package cn.cl.bos.service.base.Impl;
 import cn.cl.bos.dao.base.CourierRepository;
 import cn.cl.bos.domain.base.Courier;
 import cn.cl.bos.service.base.CourierService;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
+import org.aspectj.lang.annotation.Aspect;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -20,6 +22,9 @@ import java.util.Set;
 @Service
 @Transactional
 public class CourierServiceImpl implements CourierService {
+    @Autowired
+    private CourierRepository courierRepository;
+
     @Override
     public Page<Courier> findPageData(Specification<Courier> specification,Pageable pageable) {
         return courierRepository.findAll(specification,pageable);
@@ -52,10 +57,8 @@ public class CourierServiceImpl implements CourierService {
         return courierRepository.findAll(specification);
     }
 
-    @Autowired
-    private CourierRepository courierRepository;
-
     @Override
+    @RequiresPermissions("courier:add")
     public void save(Courier courier) {
         courierRepository.save(courier);
     }
