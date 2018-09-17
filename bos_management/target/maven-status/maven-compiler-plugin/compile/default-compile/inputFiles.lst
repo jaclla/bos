@@ -23,6 +23,7 @@
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/dao/base/CourierRepository.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/web/action/base/StandardAction.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/dao/base/AreaRepository.java
+/Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/index/WayBillIndexRepository.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/web/action/base/CourierAction.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/service/base/Impl/AreaServiceImpl.java
 /Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/dao/base/FixedAreaRepository.java

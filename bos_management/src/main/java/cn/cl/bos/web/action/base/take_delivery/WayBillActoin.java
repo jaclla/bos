@@ -53,7 +53,7 @@ public class WayBillActoin extends BaseAction<WayBill> {
     public String pageQuery() {
         Pageable pageable = new PageRequest(page - 1, rows);
 
-        Page<WayBill> pageData = wayBillService.findPageDate(pageable);
+        Page<WayBill> pageData = wayBillService.findPageDate(model,pageable);
 
         pushPageDataToValueStack(pageData);
         return SUCCESS;

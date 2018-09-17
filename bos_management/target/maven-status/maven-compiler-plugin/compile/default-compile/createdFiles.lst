@@ -2,6 +2,7 @@ cn/cl/bos/web/action/base/take_delivery/ImageAction.class
 cn/cl/bos/service/base/Impl/CourierServiceImpl.class
 cn/cl/bos/dao/base/OrderRepository.class
 cn/cl/bos/service/base/Impl/FixedAreaServiceImpl.class
+cn/cl/bos/index/WayBillIndexRepository.class
 cn/cl/bos/service/base/Impl/CourierServiceImpl$1.class
 cn/cl/bos/service/base/Impl/StandardSerbiceImpl.class
 cn/cl/bos/service/base/FixedAreaService.class

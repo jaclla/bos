@@ -7,41 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d57eb770-542a-47dc-b56a-1b8e7293ab3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/take_delivery/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/take_delivery/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bos_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bos_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/web/action/OrderAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/web/action/OrderAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_fore/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bos_fore/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/dao/base/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/dao/base/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/Impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/Impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/base/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/base/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/base/PromotionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/base/PromotionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/fixed_area.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/fixed_area.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill_quick.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill_quick.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/AreaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/AreaServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/CourierServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/CourierServiceImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/CourierServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/CourierServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/FixedAreaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/FixedAreaServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/StandardSerbiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/service/base/Impl/StandardSerbiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/utils/PinYin4jUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/utils/PinYin4jUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/AreaAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/AreaAction$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/AreaAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/AreaAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/CourierAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/CourierAction$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/CourierAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/CourierAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/FixedAreaAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/FixedAreaAction$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/FixedAreaAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/FixedAreaAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/StandardAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/StandardAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/TakeTimeAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/cn/cl/bos/web/action/base/TakeTimeAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_domain/bos_domain.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/take_delivery/WayBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/take_delivery/WayBill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/Impl/WayBillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/Impl/WayBillServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/base/WayBillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/base/WayBillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/WayBillActoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/WayBillActoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill_manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill_manage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bos_management/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/classes/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bos_management/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bos_management/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/bos_management/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm_management/src/main/java/cn/cl/crm/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/crm_management/src/main/java/cn/cl/crm/service/base/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm_management/src/main/java/cn/cl/crm/service/Impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/crm_management/src/main/java/cn/cl/crm/service/Impl/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm_management/target/classes/cn/cl/crm/service/CustomerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm_management/target/classes/cn/cl/crm/service/Impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm_management/target/classes/cn/cl/crm/service/Impl/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm_management/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/crm_management/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common_parent/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/crm_domain/target/" />
     <ignored path="$PROJECT_DIR$/crm_management/target/" />
@@ -121,13 +99,14 @@
     <session id="1962622980">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="33" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="6" />
-          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="8" />
+          <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="4" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="6" />
@@ -139,7 +118,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -151,43 +130,43 @@
           <entry key="T_CUSTOMER" value="53" />
           <entry key="T_FIXEDAREA_COURIER" value="1" />
           <entry key="T_FIXED_AREA" value="5" />
-          <entry key="T_ORDER" value="17" />
+          <entry key="T_ORDER" value="19" />
           <entry key="T_PROMOTION" value="24" />
           <entry key="T_SUB_ARCHIVE" value="1" />
           <entry key="T_SUB_AREA" value="2" />
           <entry key="T_TAKE_TIME" value="3" />
-          <entry key="T_WAY_BILL" value="11" />
+          <entry key="T_WAY_BILL" value="16" />
           <entry key="T_WORK_BILL" value="3" />
           <entry key="class" value="5" />
           <entry key="css" value="1" />
           <entry key="ftl" value="2" />
-          <entry key="html" value="96" />
-          <entry key="java" value="577" />
+          <entry key="html" value="101" />
+          <entry key="java" value="606" />
           <entry key="js" value="20" />
           <entry key="json" value="1" />
           <entry key="pom" value="5" />
           <entry key="project" value="1" />
           <entry key="properties" value="24" />
           <entry key="sql" value="9" />
-          <entry key="xml" value="260" />
-          <entry key="xsd" value="1" />
+          <entry key="xml" value="266" />
+          <entry key="xsd" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
           <entry key="CSS" value="1" />
-          <entry key="Database Element" value="128" />
+          <entry key="Database Element" value="135" />
           <entry key="Eclipse" value="1" />
           <entry key="FTL" value="2" />
-          <entry key="HTML" value="96" />
-          <entry key="JAVA" value="576" />
+          <entry key="HTML" value="101" />
+          <entry key="JAVA" value="605" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="20" />
           <entry key="Properties" value="24" />
           <entry key="SQL" value="4" />
           <entry key="Scratch" value="8" />
-          <entry key="XML" value="266" />
+          <entry key="XML" value="273" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -195,25 +174,25 @@
           <entry key="cell" value="447" />
           <entry key="dummy" value="2" />
           <entry key="ftl" value="149" />
-          <entry key="html" value="4371" />
-          <entry key="java" value="12000" />
+          <entry key="html" value="4466" />
+          <entry key="java" value="12834" />
           <entry key="js" value="38" />
           <entry key="properties" value="12" />
           <entry key="sql" value="40" />
-          <entry key="xml" value="1196" />
+          <entry key="xml" value="1237" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="FTL" value="149" />
-          <entry key="HTML" value="4371" />
-          <entry key="JAVA" value="12000" />
+          <entry key="HTML" value="4466" />
+          <entry key="JAVA" value="12834" />
           <entry key="JavaScript" value="38" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="12" />
           <entry key="SQL" value="40" />
           <entry key="Scratch" value="447" />
-          <entry key="XML" value="1196" />
+          <entry key="XML" value="1237" />
         </counts>
       </usages-collector>
     </session>
@@ -224,55 +203,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill_quick.html">
+        <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/WayBillActoin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+            <state relative-caret-position="230">
+              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+              <folding>
+                <element signature="method#findByWayBillNum#0;class#WayBillActoin#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/WayBillActoin.java">
+        <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/Impl/WayBillServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="method#pageQuery#0;class#WayBillActoin#0" />
-              </folding>
+            <state relative-caret-position="486">
+              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/Impl/WayBillServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/system/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="-1" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/take_delivery/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/take_delivery/WayBill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
               <folding>
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1067#1068#0" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Web资料/bos2.0下发资料/day09/代码/项目代码/bos_management/src/main/java/cn/itcast/bos/service/take_delivery/impl/WayBillServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="64" column="59" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://9346ada7-2ff6-4fbe-b7ce-8a8855dbaabd/schema/CL/table/T_ORDER">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -283,8 +257,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -293,13 +267,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>searchResultPanel</find>
-      <find>sear</find>
-      <find>sendAddress1</find>
-      <find>citypicker</find>
-      <find>省市区</find>
-      <find>sendAddress</find>
-      <find>recAddress</find>
       <find>recdAreaInfo</find>
       <find>sendAreaInfo</find>
       <find>recA</find>
@@ -323,6 +290,13 @@
       <find>orderForm</find>
       <find>waybillnum</find>
       <find>endEdit</find>
+      <find>itcast</find>
+      <find>运单号</find>
+      <find>order</find>
+      <find>tt</find>
+      <find>num</find>
+      <find>NUM</find>
+      <find>wayBill_pageQuery</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -331,14 +305,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/mq/PromotionConsumer.java" />
-        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/aop/OperatorInterceptor.java" />
-        <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/take_delivery/WorkBill.java" />
-        <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/take_delivery/WayBill.java" />
-        <option value="$PROJECT_DIR$/crm_domain/src/main/java/cn/cl/crm/domain/base/Customer.java" />
-        <option value="$PROJECT_DIR$/crm_domain/src/main/java/cn/cl/crm/domain/take_delivery/Order.java" />
-        <option value="$PROJECT_DIR$/crm_management/src/main/resources/applicationContext-dataSource.xml" />
-        <option value="$PROJECT_DIR$/crm_management/pom.xml" />
         <option value="$PROJECT_DIR$/crm_domain/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/9346ada7-2ff6-4fbe-b7ce-8a8855dbaabd/console.sql" />
         <option value="8b88a5dd-8ecc-4a08-b858-693a59915ee7/schema/CL2/table/T_CUSTOMER.sql" />
@@ -380,8 +346,16 @@
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill.html" />
         <option value="$PROJECT_DIR$/bos_fore/src/main/webapp/order.html" />
         <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill_quick.html" />
+        <option value="$PROJECT_DIR$/common_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/bos_domain/src/main/resources/applicationContext-elasticsearch.xml" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/dao/index/WayBillIndexRepository.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-elasticserach.xml" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/WayBillActoin.java" />
         <option value="$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/Impl/WayBillServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill_manage.html" />
+        <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/take_delivery/WayBill.java" />
+        <option value="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/system/Menu.java" />
       </list>
     </option>
   </component>
@@ -422,16 +396,12 @@
           <item name="bos_domain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="crm_management" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="28" />
     <option name="width" value="1440" />
     <option name="height" value="805" />
   </component>
@@ -441,28 +411,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -470,6 +446,7 @@
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -478,6 +455,7 @@
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_domain" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -487,51 +465,25 @@
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_fore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_fore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_fore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_fore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_fore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -539,6 +491,7 @@
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -547,15 +500,7 @@
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bos" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -565,27 +510,7 @@
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bos" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bos" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -596,17 +521,7 @@
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bos" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="take_delivery" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -618,6 +533,7 @@
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -627,6 +543,7 @@
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -637,6 +554,7 @@
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -644,6 +562,7 @@
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -651,6 +570,7 @@
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -659,111 +579,13 @@
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
               <item name="bos_management" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bos_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="take_delivery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm_management" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bos" type="b2602c69:ProjectViewProjectNode" />
@@ -773,31 +595,36 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="oracle" />
-    <property name="SearchEverywhereHistoryKey" value="waybillq&#9;FILE&#9;file:///Users/Logic/Documents/git/bos/bos_management/src/main/webapp/pages/take_delivery/waybill_quick.html&#10;waybills&#9;FILE&#9;file:///Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/service/take_delivery/Impl/WayBillServiceImpl.java&#10;waybill&#9;FILE&#9;file:///Users/Logic/Documents/git/bos/bos_management/src/main/webapp/pages/take_delivery/waybill.html&#10;way&#9;FILE&#9;file:///Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/WayBillActoin.java&#10;OrderServiceImpl&#9;FILE&#9;file:///Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/service/take_delivery/Impl/OrderServiceImpl.java&#10;fixedAreaId&#9;PSI&#9;JAVA://cn.cl.crm.dao.CustomerRepository#findByFixedAreaId&#10;city-picker&#9;FILE&#9;file:///Users/Logic/Documents/git/bos/bos_fore/src/main/webapp/dist/js/city-picker.js&#10;distpicker&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="waybillma&#9;FILE&#9;file:///Users/Logic/Documents/git/bos/bos_management/src/main/webapp/pages/take_delivery/waybill_manage.html&#10;waybillq&#9;FILE&#9;file:///Users/Logic/Documents/git/bos/bos_management/src/main/webapp/pages/take_delivery/waybill_quick.html&#10;waybills&#9;FILE&#9;file:///Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/service/take_delivery/Impl/WayBillServiceImpl.java&#10;waybill&#9;FILE&#9;file:///Users/Logic/Documents/git/bos/bos_management/src/main/webapp/pages/take_delivery/waybill.html&#10;way&#9;FILE&#9;file:///Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/WayBillActoin.java&#10;OrderServiceImpl&#9;FILE&#9;file:///Users/Logic/Documents/git/bos/bos_management/src/main/java/cn/cl/bos/service/take_delivery/Impl/OrderServiceImpl.java&#10;fixedAreaId&#9;PSI&#9;JAVA://cn.cl.crm.dao.CustomerRepository#findByFixedAreaId&#10;city-picker&#9;FILE&#9;file:///Users/Logic/Documents/git/bos/bos_fore/src/main/webapp/dist/js/city-picker.js&#10;distpicker&#9;null&#9;null" />
     <property name="ToolWindowProblems.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536846777211" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537108003616" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="js.last.introduce.type" value="VAR" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14716312" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bos_sms/src/main/resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/system" />
+      <recent name="$PROJECT_DIR$/bos_management/src/main/resources" />
+      <recent name="$PROJECT_DIR$/bos_domain/src/main/resources" />
       <recent name="$PROJECT_DIR$/bos_fore/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/bos_fore/src/main/java/web" />
+      <recent name="$PROJECT_DIR$/bos_domain/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.cl.bos.web.action.base.take_delivery" />
@@ -806,12 +633,10 @@
       <recent name="cn.cl.bos.web.action.common" />
       <recent name="cn.cl.domain" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bos_sms/src/main/resources" />
       <recent name="$PROJECT_DIR$/bos_fore/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/bos_domain/src/main/java" />
-      <recent name="$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain" />
-      <recent name="$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/mq" />
-      <recent name="$PROJECT_DIR$/bos_fore/src/main/resources" />
+      <recent name="$PROJECT_DIR$/bos_fore/src/main/java/web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1004,6 +829,12 @@
       <workItem from="1536550858613" duration="3712000" />
       <workItem from="1536563953270" duration="58993000" />
       <workItem from="1536835291126" duration="11146000" />
+      <workItem from="1536846918896" duration="56000" />
+      <workItem from="1536848429431" duration="8000" />
+      <workItem from="1536888769137" duration="827000" />
+      <workItem from="1536912329555" duration="10000" />
+      <workItem from="1536924555247" duration="200000" />
+      <workItem from="1537069169721" duration="15240000" />
     </task>
     <servers />
   </component>
@@ -1028,25 +859,24 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231846000" />
+    <option name="totallyTimeSpent" value="248187000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="805" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="28" width="1440" height="805" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49571183" visible="true" weight="0.23962805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49253732" visible="true" weight="0.26108727" />
       <window_info id="Structure" order="1" sideWeight="0.50645995" side_tool="true" weight="0.30329043" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" sideWeight="0.50428814" side_tool="true" weight="0.24320458" />
+      <window_info id="Favorites" order="4" sideWeight="0.5074627" side_tool="true" weight="0.26108727" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="JRebel" order="8" sideWeight="0.5081967" side_tool="true" weight="0.28612304" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32819074" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.3085554" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5314735" weight="0.29453015" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.35904628" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.5314735" weight="0.5091164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1131,135 +961,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/apache/cxf/cxf-rt-frontend-jaxrs/3.0.1/cxf-rt-frontend-jaxrs-3.0.1-sources.jar!/org/apache/cxf/jaxrs/JAXRSInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/apache/cxf/cxf-core/3.0.1/cxf-core-3.0.1-sources.jar!/org/apache/cxf/interceptor/ServiceInvokerInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="147" selection-start-line="147" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/apache/cxf/cxf-core/3.0.1/cxf-core-3.0.1-sources.jar!/org/apache/cxf/phase/PhaseInterceptorChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="381" selection-start-line="381" selection-end-line="381" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/apache/cxf/cxf-core/3.0.1/cxf-core-3.0.1-sources.jar!/org/apache/cxf/transport/ChainInitiationObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/apache/cxf/cxf-rt-transports-http/3.0.1/cxf-rt-transports-http-3.0.1-sources.jar!/org/apache/cxf/transport/http/AbstractHTTPDestination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="263" selection-start-line="263" selection-end-line="263" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/apache/cxf/cxf-rt-transports-http/3.0.1/cxf-rt-transports-http-3.0.1-sources.jar!/org/apache/cxf/transport/servlet/ServletController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/apache/cxf/cxf-rt-transports-http/3.0.1/cxf-rt-transports-http-3.0.1-sources.jar!/org/apache/cxf/transport/servlet/CXFNonSpringServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/apache/cxf/cxf-rt-transports-http/3.0.1/cxf-rt-transports-http-3.0.1-sources.jar!/org/apache/cxf/transport/servlet/AbstractHTTPServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="253" column="47" lean-forward="true" selection-start-line="253" selection-start-column="47" selection-end-line="253" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm_management/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/constant/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://9346ada7-2ff6-4fbe-b7ce-8a8855dbaabd/schema/CL/table/T_AREA">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/Impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="132" column="43" lean-forward="true" selection-start-line="132" selection-start-column="43" selection-end-line="132" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm_management/src/main/java/cn/cl/crm/service/base/CustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="49" column="45" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm_management/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="27" column="64" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/take_delivery/a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/Impl/FixedAreaServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="53" column="38" lean-forward="true" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/Impl/TakeTimeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/base/TakeTimeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/springframework/data/spring-data-jpa/1.9.0.RELEASE/spring-data-jpa-1.9.0.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1278,20 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/OrderlActoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/web/action/OrderAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
@@ -1327,14 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
           <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
-          <folding>
-            <element signature="method#fixedArea_save#0;class#FixedAreaAction#0" />
-            <element signature="method#fixedArea_delBatch#0;class#FixedAreaAction#0" />
-            <element signature="method#fixedArea_pageQuery#0;class#FixedAreaAction#0" />
-            <element signature="method#decidedzone_assigncustomerstodecidedzone#0;class#FixedAreaAction#0" />
-            <element signature="method#fixedArea_associationCourierToFixedArea#0;class#FixedAreaAction#0" />
-            <element signature="method#fixedArea_findHasAssociationFixedAreaCustomers#0;class#FixedAreaAction#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1342,9 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="593" column="21" lean-forward="true" selection-start-line="593" selection-start-column="21" selection-end-line="593" selection-end-column="21" />
-          <folding>
-            <element signature="e#999#1637#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1404,18 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/take_delivery/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="273" column="29" selection-start-line="273" selection-start-column="29" selection-end-line="273" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3597#3598#0" expanded="true" />
-            <element signature="e#3622#3623#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bos_fore/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -1427,20 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/take_delivery/WayBill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/dao/base/WayBillRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1458,10 +1108,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://9346ada7-2ff6-4fbe-b7ce-8a8855dbaabd/schema/CL/table/T_WAY_BILL">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill_quick.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web资料/bos2.0下发资料/day09/代码/项目代码/bos_management/src/main/java/cn/itcast/bos/service/take_delivery/impl/WayBillServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="64" column="59" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/OrderlActoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_fore/src/main/java/cn/cl/bos/web/action/OrderAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/resources/applicationContext-elasticsearch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/springframework/spring-beans/4.2.8.RELEASE/spring-beans-4.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="1589" column="5" lean-forward="true" selection-start-line="1589" selection-start-column="5" selection-end-line="1589" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Web资料/bos2.0下发资料/day09/代码/项目代码/bos_domain/src/main/java/cn/itcast/bos/domain/take_delivery/WayBill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/springframework/data/spring-data-elasticsearch/2.0.4.RELEASE/spring-data-elasticsearch-2.0.4.RELEASE.jar!/org/springframework/data/elasticsearch/config/spring-elasticsearch-1.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="111" column="68" selection-start-line="111" selection-start-column="68" selection-end-line="111" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_parent/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/Impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/dao/base/WayBillRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/elasticsearch/elasticsearch/2.4.0/elasticsearch-2.4.0-sources.jar!/org/elasticsearch/index/mapper/FieldMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/elasticsearch/elasticsearch/2.4.0/elasticsearch-2.4.0-sources.jar!/org/elasticsearch/index/mapper/core/StringFieldMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="326" column="49" selection-start-line="326" selection-start-column="49" selection-end-line="326" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/archives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="49" column="16" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/base/area.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1472,48 +1228,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill_quick.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/base/WayBillService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Web资料/bos2.0下发资料/day09/代码/项目代码/bos_management/src/main/java/cn/itcast/bos/service/take_delivery/impl/WayBillServiceImpl.java">
+    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/springframework/data/spring-data-commons/1.11.0.RELEASE/spring-data-commons-1.11.0.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="64" column="59" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="59" />
+        <state relative-caret-position="45">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://9346ada7-2ff6-4fbe-b7ce-8a8855dbaabd/schema/CL/table/T_WAY_BILL">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/webapp/pages/take_delivery/waybill_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="76" column="51" selection-start-line="75" selection-start-column="8" selection-end-line="76" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/apache/commons/commons-lang3/3.2/commons-lang3-3.2-sources.jar!/org/apache/commons/lang3/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="292" column="34" lean-forward="true" selection-start-line="292" selection-start-column="34" selection-end-line="292" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/index/WayBillIndexRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/take_delivery/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/springframework/data/spring-data-elasticsearch/2.0.4.RELEASE/spring-data-elasticsearch-2.0.4.RELEASE-sources.jar!/org/springframework/data/elasticsearch/annotations/FieldIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/take_delivery/WayBill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_management/src/main/resources/applicationContext-elasticserach.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/web/action/base/take_delivery/WayBillActoin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="230">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding>
-            <element signature="method#pageQuery#0;class#WayBillActoin#0" />
+            <element signature="method#findByWayBillNum#0;class#WayBillActoin#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bos_management/src/main/java/cn/cl/bos/service/take_delivery/Impl/WayBillServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="486">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bos_domain/src/main/java/cn/cl/bos/domain/system/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1" />
       </provider>
     </entry>
   </component>
@@ -1571,11 +1381,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|bos_sms</last-edited>
+          <last-edited>bos_domain</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
