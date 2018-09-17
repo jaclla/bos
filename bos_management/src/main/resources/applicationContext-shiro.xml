@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:cache="http://www.springframework.org/schema/cache"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+	 http://www.springframework.org/schema/cache
+	  http://www.springframework.org/schema/cache/spring-cache.xsd">
+
+
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <!--安全管理器-->
+        <property name="securityManager" ref="securityManager"/>
+        <!--没有登录-->
+        <property name="loginUrl" value="/login.html"/>
+        <!--登陆后-->
+        <property name="successUrl" value="index.html"/>
+        <!--登陆后没有权限-->
+        <property name="unauthorizedUrl" value="/unauthorized.html"/>
+        <property name="filterChainDefinitions">
+            <value>
+                /login.html* =anon
+                /css/** = anon
+                /js/** = anon
+                /images/** =anon
+                /services/** =anon
+                /validatecode.jsp =anon
+                /user_login.action* =anon
+                /pages/base/courier.html* = perms[courier:list]
+                /pages/base/area.html* = roles[base]
+                /** authc
+            </value>
+        </property>
+    </bean>
+
+    <!--安全管理器-->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="bosRealm"></property>
+        <property name="cacheManager" ref="shiroCacheManage"/>
+    </bean>
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+    <!--动态代理-->
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"
+          depends-on="lifecycleBeanPostProcessor">
+        <property name="proxyTargetClass" value="true"/>
+    </bean>
+    <!--通知处理-->
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
+    <!--配置realm-->
+    <bean id="bosRealm" class="cn.cl.bos.realm.BosRealm">
+        <property name="authenticationCacheName" value="bos"/>
+    </bean>
+
+</beans>

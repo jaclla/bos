@@ -1,10 +1,13 @@
 package cn.cl.bos.web.action.base;
 
+import cn.cl.bos.domain.base.Courier;
 import cn.cl.bos.service.base.CourierService;
 import cn.cl.bos.web.action.base.common.BaseAction;
 import com.opensymphony.xwork2.ActionContext;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.struts2.convention.annotation.*;
+import org.aspectj.lang.annotation.Aspect;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.data.domain.Page;
@@ -20,11 +23,10 @@ import java.util.List;
 import java.util.Map;
 
 @ParentPackage("json-default")
-@Actions
 @Namespace("/")
 @Controller
 @Scope("prototype")
-public class CourierAction extends BaseAction<cn.cl.bos.domain.base.Courier> {
+ public class CourierAction extends BaseAction<Courier> {
 //    //模型驱动
 //    private Courier courier = new Courier();
 //    //属性模型
@@ -41,13 +43,14 @@ public class CourierAction extends BaseAction<cn.cl.bos.domain.base.Courier> {
 
     @Autowired
     private CourierService courierService;
-
+//
 //    @Override
 //    public Courier getModel() {
 //        return courier;
 //    }
 
     //数据添加
+    //
     @Action(value = "courier_save", results = @Result(name = SUCCESS, type = "redirect", location = "pages/base/courier.html"))
     public String save() {
         courierService.save(model);
@@ -60,9 +63,9 @@ public class CourierAction extends BaseAction<cn.cl.bos.domain.base.Courier> {
         //调用业务层查询数据结果
         Pageable pageable = new PageRequest(page - 1, rows);
         //根据查询条件 构建条件查询对象
-        Specification<cn.cl.bos.domain.base.Courier> specification = new Specification<cn.cl.bos.domain.base.Courier>() {
+        Specification<Courier> specification = new Specification<Courier>() {
             @Override
-            public Predicate toPredicate(Root<cn.cl.bos.domain.base.Courier> root, CriteriaQuery<?> query, CriteriaBuilder cb) {
+            public Predicate toPredicate(Root<Courier> root, CriteriaQuery<?> query, CriteriaBuilder cb) {
                 //单表查询
                 //快递员工号  精准查询
                 List<Predicate> list = new ArrayList<>();
@@ -96,7 +99,7 @@ public class CourierAction extends BaseAction<cn.cl.bos.domain.base.Courier> {
                 return cb.and(list.toArray(new Predicate[0]));
             }
         };
-        Page<cn.cl.bos.domain.base.Courier> pageData = courierService.findPageData(specification, pageable);
+        Page<Courier> pageData = courierService.findPageData(specification, pageable);
         //返回数据到客户端
         Map<String, Object> result = new HashMap<>();
         result.put("total", pageData.getTotalElements());
@@ -134,7 +137,7 @@ public class CourierAction extends BaseAction<cn.cl.bos.domain.base.Courier> {
     @Action(value = "courier_findnoassociation", results = @Result(name = SUCCESS, type = "json"))
     public String courier_findnoassociation() {
         //调用业务层，查询未关联定区的快递员
-        List<cn.cl.bos.domain.base.Courier> couriers = courierService.findNoAssociation();
+        List<Courier> couriers = courierService.findNoAssociation();
         ActionContext.getContext().getValueStack().push(couriers);
         return SUCCESS;
 

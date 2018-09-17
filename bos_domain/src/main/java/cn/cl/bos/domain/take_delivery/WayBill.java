@@ -89,7 +89,7 @@ public class WayBill implements Serializable {
     @Field(index = FieldIndex.analyzed, analyzer = "ik", searchAnalyzer = "ik", store = true, type = FieldType.String)
     private String remark; // 备注
     @Column(name = "C_NUM")
-    @Field(index = FieldIndex.no, store = true, type = FieldType.Long)
+    @Field(index = FieldIndex.no, store = true)
     private Integer num; // 原件数
 
     @Column(name = "C_ARRIVE_CITY")
