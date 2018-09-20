@@ -15,6 +15,8 @@ import org.springframework.data.elasticsearch.core.query.SearchQuery;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 @Transactional
 public class WayBillServiceImpl implements WayBillService {
@@ -34,14 +36,19 @@ public class WayBillServiceImpl implements WayBillService {
             wayBillIndexRepository.save(wayBill);
         } else {
             try {
-                Integer id = persistWayBill.getId();
-                BeanUtils.copyProperties(persistWayBill, wayBill);
-                persistWayBill.setId(id);
-                persistWayBill.setSignStatus(1); // 待发货
-                wayBillIndexRepository.save(persistWayBill);
+                if (persistWayBill.getSignStatus() == 1) {
+                    Integer id = persistWayBill.getId();
+                    BeanUtils.copyProperties(persistWayBill, wayBill);
+                    persistWayBill.setId(id);
+                    persistWayBill.setSignStatus(1); // 待发货
+                    //保存索引
+                    wayBillIndexRepository.save(persistWayBill);
+                    syncIndex();
+                } else {
+                    throw new RuntimeException("运单已经发出，无法修改保存！");
+                }
             } catch (Exception e) {
                 e.printStackTrace();
-                throw new RuntimeException(e.getMessage());
             }
         }
     }
@@ -117,4 +124,11 @@ public class WayBillServiceImpl implements WayBillService {
     public WayBill findByWayBillNum(String wayBillNum) {
         return wayBillRepository.findByWayBillNum(wayBillNum);
     }
+
+    @Override
+    public void syncIndex() {
+        List<WayBill> wayBills = wayBillRepository.findAll();
+        wayBillIndexRepository.save(wayBills);
+    }
+
 }

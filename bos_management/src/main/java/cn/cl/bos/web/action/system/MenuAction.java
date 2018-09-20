@@ -15,7 +15,6 @@ import org.springframework.stereotype.Controller;
 
 import java.util.List;
 
-import static com.opensymphony.xwork2.Action.SUCCESS;
 
 @ParentPackage("json-default")
 @Actions

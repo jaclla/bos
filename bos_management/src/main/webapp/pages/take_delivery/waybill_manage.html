@@ -35,10 +35,44 @@
             });
             return serializeObj;
         };
+
         function doSearch() {
             var queryParams = $("#searchForm").serializeJson();
             $('#tt').datagrid('load', queryParams);
         }
+
+
+        $(function () {
+            $("#transitBtn").click(function () {
+                //获得数据表格所有选中行
+                var rows = $("#tt").datagrid('getSelections');
+                if (rows.length == 0) {
+                    //没有选中
+                    $.messager.alert('警告', '必选选中运单信息', 'warning');
+                } else {
+                    //选中运单，获得运单id
+                    var array = new Array();
+                    for (var i = 0; i < rows.length; i++) {
+                        array.push(rows[i].id);
+                    }
+                    var walBillIds = array.join(',');
+                    $.post('/transit_create.action', {wayBillIds: walBillIds}, function (data) {
+                        //返回值{success:true,msg:....}
+                        if (data.success) {
+                            $.messager.show({
+                                title: "操作成功",
+                                msg: data.msg
+                            });
+                        } else {
+                            $.messager.show({
+                                title: "操作失败",
+                                msg: data.msg
+                            });
+                        }
+                    });
+                }
+            });
+        })
     </script>
 </head>
 
@@ -52,6 +86,7 @@
     <a id="help" icon="icon-save" href="#" class="easyui-linkbutton" plain="true">保存</a>
     <a id="help" icon="icon-print" href="#" class="easyui-linkbutton" plain="true">打印标签</a>
     <a id="help" icon="icon-print" href="#" class="easyui-linkbutton" plain="true">打印工作单</a>
+    <a id="transitBtn" icon="icon-edit" href="#" class="easyui-linkbutton" plain="true">开始中转配送</a>
 
     <br/>
     <form id="searchForm">
