@@ -17,4 +17,5 @@ public interface WayBillService {
 
     public void syncIndex();
 
+    List<WayBill> findWayBills(WayBill model);
 }

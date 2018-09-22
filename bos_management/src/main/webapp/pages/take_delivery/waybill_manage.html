@@ -43,6 +43,7 @@
 
 
         $(function () {
+            //开始配送
             $("#transitBtn").click(function () {
                 //获得数据表格所有选中行
                 var rows = $("#tt").datagrid('getSelections');
@@ -72,6 +73,13 @@
                     });
                 }
             });
+
+            //导出excel
+            $("#exportXlsBtn").click(function () {
+                $("#searchForm").attr("action", "/report_exportXls.action")
+                $("#searchForm").submit();
+
+            })
         })
     </script>
 </head>
@@ -87,6 +95,7 @@
     <a id="help" icon="icon-print" href="#" class="easyui-linkbutton" plain="true">打印标签</a>
     <a id="help" icon="icon-print" href="#" class="easyui-linkbutton" plain="true">打印工作单</a>
     <a id="transitBtn" icon="icon-edit" href="#" class="easyui-linkbutton" plain="true">开始中转配送</a>
+    <a id="exportXlsBtn" icon="icon-print" href="#" class="easyui-linkbutton" plain="true">导出excel</a>
 
     <br/>
     <form id="searchForm">
